@@ -6,7 +6,7 @@ This example echoes the received characters over the console using the USART dri
 
 ## Description
 
-This example uses the USART driver in synchronous mode in Bare-Metal environment to communicate over the console. It receives and echo's back the characters entered by the user.
+This example uses the USART driver in synchronous mode in RTOS environment to communicate over the console. It receives and echo's back the characters entered by the user.
 
 ## Downloading and building the application
 
@@ -19,7 +19,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| pic32cm_le00_curiosity_pro.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_le00_curiosity_pro_freertos.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
 |||
 
 ## Setting up the hardware
@@ -28,7 +28,7 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_le00_curiosity_pro_freertos.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
 |||
 
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()

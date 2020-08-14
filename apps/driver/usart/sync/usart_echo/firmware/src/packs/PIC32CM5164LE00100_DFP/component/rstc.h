@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-06-09T10:48:25Z */
+/* file generated from device description version 2020-08-03T13:09:11Z */
 #ifndef _PIC32CMLE00_RSTC_COMPONENT_H_
 #define _PIC32CMLE00_RSTC_COMPONENT_H_
 
