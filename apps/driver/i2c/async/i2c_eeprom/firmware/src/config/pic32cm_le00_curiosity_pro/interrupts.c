@@ -60,8 +60,10 @@
 
 extern uint32_t _stack;
 
+void Dummy_Handler(void);
+
 /* Brief default interrupt handler for unused IRQs.*/
-void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call))Dummy_Handler(void)
+void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call, noreturn))Dummy_Handler(void)
 {
 #if defined(__DEBUG) || defined(__DEBUG_D) && defined(__XC32)
     __builtin_software_breakpoint();
@@ -78,7 +80,7 @@ void SVCall_Handler             ( void ) __attribute__((weak, alias("Dummy_Handl
 void PendSV_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void SysTick_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void SYSTEM_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void WDT_EW_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+void WDT_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void RTC_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EIC_EXTINT_0_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EIC_EXTINT_1_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -89,7 +91,7 @@ void EIC_EXTINT_5_Handler       ( void ) __attribute__((weak, alias("Dummy_Handl
 void EIC_EXTINT_6_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EIC_EXTINT_7_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EIC_OTHER_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void FREQM_DONE_Handler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
+void FREQM_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void NVMCTRL_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void DMAC_0_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void DMAC_1_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -105,7 +107,7 @@ void EVSYS_4_Handler            ( void ) __attribute__((weak, alias("Dummy_Handl
 void EVSYS_5_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EVSYS_6_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void EVSYS_7_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void PAC_ERR_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
+void PAC_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void SERCOM0_0_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void SERCOM0_1_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void SERCOM0_2_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -140,7 +142,7 @@ void AC_Handler                 ( void ) __attribute__((weak, alias("Dummy_Handl
 void DAC_UNDERRUN_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void DAC_EMPTY_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void PTC_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void TRNG_DATARDY_Handler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
+void TRNG_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void I2S_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 void TRAM_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 
@@ -163,7 +165,7 @@ const DeviceVectors exception_table=
     .pfnPendSV_Handler             = ( void * ) PendSV_Handler,
     .pfnSysTick_Handler            = ( void * ) SysTick_Handler,
     .pfnSYSTEM_Handler             = ( void * ) SYSTEM_Handler,
-    .pfnWDT_EW_Handler             = ( void * ) WDT_EW_Handler,
+    .pfnWDT_Handler                = ( void * ) WDT_Handler,
     .pfnRTC_Handler                = ( void * ) RTC_Handler,
     .pfnEIC_EXTINT_0_Handler       = ( void * ) EIC_EXTINT_0_Handler,
     .pfnEIC_EXTINT_1_Handler       = ( void * ) EIC_EXTINT_1_Handler,
@@ -174,7 +176,7 @@ const DeviceVectors exception_table=
     .pfnEIC_EXTINT_6_Handler       = ( void * ) EIC_EXTINT_6_Handler,
     .pfnEIC_EXTINT_7_Handler       = ( void * ) EIC_EXTINT_7_Handler,
     .pfnEIC_OTHER_Handler          = ( void * ) EIC_OTHER_Handler,
-    .pfnFREQM_DONE_Handler         = ( void * ) FREQM_DONE_Handler,
+    .pfnFREQM_Handler              = ( void * ) FREQM_Handler,
     .pfnNVMCTRL_Handler            = ( void * ) NVMCTRL_Handler,
     .pfnDMAC_0_Handler             = ( void * ) DMAC_0_Handler,
     .pfnDMAC_1_Handler             = ( void * ) DMAC_1_Handler,
@@ -190,7 +192,7 @@ const DeviceVectors exception_table=
     .pfnEVSYS_5_Handler            = ( void * ) EVSYS_5_Handler,
     .pfnEVSYS_6_Handler            = ( void * ) EVSYS_6_Handler,
     .pfnEVSYS_7_Handler            = ( void * ) EVSYS_7_Handler,
-    .pfnPAC_ERR_Handler            = ( void * ) PAC_ERR_Handler,
+    .pfnPAC_Handler                = ( void * ) PAC_Handler,
     .pfnSERCOM0_0_Handler          = ( void * ) SERCOM0_0_Handler,
     .pfnSERCOM0_1_Handler          = ( void * ) SERCOM0_1_Handler,
     .pfnSERCOM0_2_Handler          = ( void * ) SERCOM0_2_Handler,
@@ -228,7 +230,7 @@ const DeviceVectors exception_table=
     .pfnDAC_UNDERRUN_Handler       = ( void * ) DAC_UNDERRUN_Handler,
     .pfnDAC_EMPTY_Handler          = ( void * ) DAC_EMPTY_Handler,
     .pfnPTC_Handler                = ( void * ) PTC_Handler,
-    .pfnTRNG_DATARDY_Handler       = ( void * ) TRNG_DATARDY_Handler,
+    .pfnTRNG_Handler               = ( void * ) TRNG_Handler,
     .pfnI2S_Handler                = ( void * ) I2S_Handler,
     .pfnTRAM_Handler               = ( void * ) TRAM_Handler,
 
