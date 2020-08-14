@@ -65,63 +65,59 @@
 // *****************************************************************************
 // *****************************************************************************
 
-  
 /*** Macros for APP_EEPROM2_WP pin ***/
 #define APP_EEPROM2_WP_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 5)
 #define APP_EEPROM2_WP_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 5)
 #define APP_EEPROM2_WP_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 5)
-#define APP_EEPROM2_WP_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 5)) & 0x01)
 #define APP_EEPROM2_WP_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 5)
 #define APP_EEPROM2_WP_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 5)
+#define APP_EEPROM2_WP_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 5)) & 0x01)
 #define APP_EEPROM2_WP_PIN                  PORT_PIN_PB05
 
 /*** Macros for APP_EEPROM1_HOLD pin ***/
 #define APP_EEPROM1_HOLD_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 8)
 #define APP_EEPROM1_HOLD_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 8)
 #define APP_EEPROM1_HOLD_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 8)
-#define APP_EEPROM1_HOLD_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 8)) & 0x01)
 #define APP_EEPROM1_HOLD_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 8)
 #define APP_EEPROM1_HOLD_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 8)
+#define APP_EEPROM1_HOLD_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 8)) & 0x01)
 #define APP_EEPROM1_HOLD_PIN                  PORT_PIN_PB08
 
 /*** Macros for APP_EEPROM1_WP pin ***/
 #define APP_EEPROM1_WP_Set()               (PORT_REGS->GROUP[0].PORT_OUTSET = 1 << 10)
 #define APP_EEPROM1_WP_Clear()             (PORT_REGS->GROUP[0].PORT_OUTCLR = 1 << 10)
 #define APP_EEPROM1_WP_Toggle()            (PORT_REGS->GROUP[0].PORT_OUTTGL = 1 << 10)
-#define APP_EEPROM1_WP_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 10)) & 0x01)
 #define APP_EEPROM1_WP_OutputEnable()      (PORT_REGS->GROUP[0].PORT_DIRSET = 1 << 10)
 #define APP_EEPROM1_WP_InputEnable()       (PORT_REGS->GROUP[0].PORT_DIRCLR = 1 << 10)
+#define APP_EEPROM1_WP_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 10)) & 0x01)
 #define APP_EEPROM1_WP_PIN                  PORT_PIN_PA10
 
 /*** Macros for APP_EEPROM2_HOLD pin ***/
 #define APP_EEPROM2_HOLD_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 16)
 #define APP_EEPROM2_HOLD_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 16)
 #define APP_EEPROM2_HOLD_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 16)
-#define APP_EEPROM2_HOLD_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 16)) & 0x01)
 #define APP_EEPROM2_HOLD_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 16)
 #define APP_EEPROM2_HOLD_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 16)
+#define APP_EEPROM2_HOLD_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 16)) & 0x01)
 #define APP_EEPROM2_HOLD_PIN                  PORT_PIN_PB16
 
 /*** Macros for APP_EEPROM2_CS pin ***/
 #define APP_EEPROM2_CS_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = 1 << 24)
 #define APP_EEPROM2_CS_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = 1 << 24)
 #define APP_EEPROM2_CS_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = 1 << 24)
-#define APP_EEPROM2_CS_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 24)) & 0x01)
 #define APP_EEPROM2_CS_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = 1 << 24)
 #define APP_EEPROM2_CS_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = 1 << 24)
+#define APP_EEPROM2_CS_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 24)) & 0x01)
 #define APP_EEPROM2_CS_PIN                  PORT_PIN_PC24
 
 /*** Macros for APP_EEPROM1_CS pin ***/
 #define APP_EEPROM1_CS_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = 1 << 0)
 #define APP_EEPROM1_CS_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = 1 << 0)
 #define APP_EEPROM1_CS_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = 1 << 0)
-#define APP_EEPROM1_CS_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 0)) & 0x01)
 #define APP_EEPROM1_CS_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = 1 << 0)
 #define APP_EEPROM1_CS_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = 1 << 0)
+#define APP_EEPROM1_CS_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 0)) & 0x01)
 #define APP_EEPROM1_CS_PIN                  PORT_PIN_PB00
-
-
-
 // *****************************************************************************
 /* PORT Group
 
@@ -1018,7 +1014,7 @@ void PORT_GroupToggle(PORT_GROUP group, uint32_t mask);
     void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as input.
+    Configures the selected IO pins of a group as input.
 
   Description:
     This function configures the selected IO pins of a group as input. The pins
@@ -1057,7 +1053,7 @@ void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask);
     void PORT_GroupOutputEnable(PORT_GROUP group, uint32_t mask)
 
   Summary:
-    Confgiures the selected IO pins of a group as output.
+    Configures the selected IO pins of a group as output.
 
   Description:
     This function configures the selected IO pins of a group as output. The pins

@@ -48,7 +48,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
-#include "peripheral/sercom/spim/plib_sercom3_spi.h"
+#include "peripheral/sercom/spi_master/plib_sercom3_spi_master.h"
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "peripheral/evsys/plib_evsys.h"
 #include "bsp/bsp.h"
@@ -57,7 +57,7 @@
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/dmac/plib_dmac.h"
 #include "peripheral/pm/plib_pm.h"
-#include "peripheral/sercom/spim/plib_sercom4_spi.h"
+#include "peripheral/sercom/spi_master/plib_sercom4_spi_master.h"
 #include "driver/spi/drv_spi.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"
