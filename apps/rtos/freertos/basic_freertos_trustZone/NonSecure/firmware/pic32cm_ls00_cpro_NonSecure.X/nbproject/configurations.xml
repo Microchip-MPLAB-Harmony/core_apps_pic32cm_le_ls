@@ -7,73 +7,75 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
           <logicalFolder name="f2" displayName="bsp" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/bsp/bsp.h</itemPath>
+            <itemPath>../src/config/pic32cm_ls00_cpro/bsp/bsp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_ls00_cpro/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cm_ls00_cpro/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/pic32cm_ls00_cpro/osal/osal_freertos.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f1" displayName="port" projectFiles="true">
-              <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.h</itemPath>
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/device_cache.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/toolchain_specifics.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/definitions.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/FreeRTOSConfig.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/user.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/configuration.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/device_cache.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/device.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/FreeRTOSConfig.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/user.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/configuration.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f4" displayName="FreeRTOS" projectFiles="true">
         <logicalFolder name="f1" displayName="Source" projectFiles="true">
           <logicalFolder name="f1" displayName="include" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/croutine.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/event_groups.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/list.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/portable.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/projdefs.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/queue.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/semphr.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/stack_macros.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/task.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/timers.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/mpu_prototypes.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/stream_buffer.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/include/message_buffer.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/croutine.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/event_groups.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/list.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/portable.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/queue.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/semphr.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/stack_macros.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/task.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/timers.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/mpu_prototypes.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/stream_buffer.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/message_buffer.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="portable" projectFiles="true">
             <logicalFolder name="f1" displayName="GCC" projectFiles="true">
               <logicalFolder name="f1" displayName="ARM_CM23" projectFiles="true">
                 <logicalFolder name="f1" displayName="non_secure" projectFiles="true">
-                  <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portasm.h</itemPath>
-                  <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portmacro.h</itemPath>
+                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portasm.h</itemPath>
+                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portmacro.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f5" displayName="osal" projectFiles="true">
-        <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/osal/osal.h</itemPath>
-        <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/osal/osal_definitions.h</itemPath>
-        <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/osal/osal_freertos.h</itemPath>
-      </logicalFolder>
       <logicalFolder name="f3" displayName="packs" projectFiles="true">
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
             <logicalFolder name="f1" displayName="Core" projectFiles="true">
               <logicalFolder name="f1" displayName="Include" projectFiles="true">
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
-                <itemPath>../../../NonSecure/firmware/src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -82,51 +84,50 @@
                        displayName="PIC32CM5164LS00100_DFP"
                        projectFiles="true">
           <logicalFolder name="f1" displayName="component" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/ac.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/adc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/ccl.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/dac.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/dmac.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/dsu.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/eic.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/evsys.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/freqm.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/gclk.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/i2s.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/idau.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/mclk.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/nvmctrl.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/opamp.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/osc32kctrl.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/oscctrl.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/pac.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/pm.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/port.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/ptc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/rstc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/rtc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/sercom.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/supc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/tc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/tcc.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/tram.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/trng.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/usb.h</itemPath>
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/ac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/adc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/ccl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/dac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/dmac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/dsu.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/eic.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/evsys.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/freqm.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/gclk.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/i2s.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/idau.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/mclk.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/opamp.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/oscctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/pac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/pm.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/port.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/ptc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/sercom.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/supc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/tcc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/tram.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/trng.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/usb.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/wdt.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/pio/pic32cm5164ls00100.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/pio/pic32cm5164ls00100.h</itemPath>
           </logicalFolder>
-          <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/device.h</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/packs/PIC32CM5164LS00100_DFP/pic32cm5164ls00100.h</itemPath>
+          <itemPath>../src/packs/PIC32CM5164LS00100_DFP/pic32cm5164ls00100.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="trustZone" projectFiles="true">
-        <itemPath>../../../NonSecure/firmware/src/trustZone/nonsecure_entry.h</itemPath>
+        <itemPath>../src/trustZone/nonsecure_entry.h</itemPath>
       </logicalFolder>
-      <itemPath>../../../NonSecure/firmware/src/app.h</itemPath>
-      <itemPath>../../../NonSecure/firmware/src/app1.h</itemPath>
-      <itemPath>../../../NonSecure/firmware/src/app2.h</itemPath>
+      <itemPath>../src/app.h</itemPath>
+      <itemPath>../src/app1.h</itemPath>
+      <itemPath>../src/app2.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -138,23 +139,26 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
           <logicalFolder name="f3" displayName="bsp" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/bsp/bsp.c</itemPath>
+            <itemPath>../src/config/pic32cm_ls00_cpro/bsp/bsp.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f4" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_ls00_cpro/osal/osal_freertos.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f1" displayName="port" projectFiles="true">
-              <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.c</itemPath>
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f1" displayName="stdio" projectFiles="true">
-            <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/stdio/xc32_monitor.c</itemPath>
+            <itemPath>../src/config/pic32cm_ls00_cpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/initialization.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/interrupts.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/exceptions.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/startup_xc32.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/libc_syscalls.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/freertos_hooks.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/tasks.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/initialization.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/interrupts.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/exceptions.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/startup_xc32.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/freertos_hooks.c</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/tasks.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
@@ -163,36 +167,35 @@
             <logicalFolder name="f2" displayName="GCC" projectFiles="true">
               <logicalFolder name="f1" displayName="ARM_CM23" projectFiles="true">
                 <logicalFolder name="f1" displayName="non_secure" projectFiles="true">
-                  <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/port.c</itemPath>
-                  <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portasm.c</itemPath>
+                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/port.c</itemPath>
+                  <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure/portasm.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f1" displayName="MemMang" projectFiles="true">
-              <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c</itemPath>
+              <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/croutine.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/list.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/queue.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/timers.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/event_groups.c</itemPath>
-          <itemPath>../../../NonSecure/firmware/src/third_party/rtos/FreeRTOS/Source/stream_buffer.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/croutine.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/list.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/queue.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/timers.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/event_groups.c</itemPath>
+          <itemPath>../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f3" displayName="osal" projectFiles="true">
-        <itemPath>../../../NonSecure/firmware/src/config/pic32cm_ls00_cpro/osal/osal_freertos.c</itemPath>
-      </logicalFolder>
-      <itemPath>../../../NonSecure/firmware/src/main.c</itemPath>
-      <itemPath>../../../NonSecure/firmware/src/app.c</itemPath>
-      <itemPath>../../../NonSecure/firmware/src/app1.c</itemPath>
-      <itemPath>../../../NonSecure/firmware/src/app2.c</itemPath>
+      <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/app.c</itemPath>
+      <itemPath>../src/app1.c</itemPath>
+      <itemPath>../src/app2.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/pic32cm_ls00_cpro/harmony.prj</itemPath>
+      <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.xml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -212,7 +215,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.73"/>
+        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.85"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
@@ -289,7 +292,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure;../../../Secure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/secure;../src/third_party/rtos/FreeRTOS/Source/include"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure;../../../Secure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/secure;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -342,7 +345,7 @@
         <property key="enable-check-sections" value="false"/>
         <property key="exclude-floating-point-library" value="false"/>
         <property key="exclude-standard-libraries" value="false"/>
-        <property key="extra-lib-directories" value="./"/>
+        <property key="extra-lib-directories" value="./;"/>
         <property key="fill-flash-options-addr" value=""/>
         <property key="fill-flash-options-const" value=""/>
         <property key="fill-flash-options-how" value="0"/>
@@ -364,7 +367,7 @@
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
         <property key="preprocessor-macros"
-                  value="AS=0x40000;AS_SIZE=0x40000;RS=0x8000;RS_SIZE=0x8000;BOOTPROT=0x0;BOOTPROT_SIZE=0x0;NONSECURE"/>
+                  value="NONSECURE;;AS_SIZE=0x40000;BOOTPROT_SIZE=0x0;RS_SIZE=0x8000"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -373,7 +376,7 @@
         <property key="symbol-stripping" value=""/>
         <property key="trace-symbols" value=""/>
         <property key="warn-section-align" value="false"/>
-        <appendMe value="-l:pic32cm_ls00_cpro_Secure_sg_veneer.lib"/>
+        <appendMe value="-l:pic32cm_ls00_cpro_Secure_sg_veneer.lib "/>
       </C32-LD>
       <C32CPP>
         <property key="additional-warnings" value="false"/>
@@ -386,7 +389,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/non_secure;../../../Secure/firmware/src/third_party/rtos/FreeRTOS/Source/portable/GCC/ARM_CM23/secure;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

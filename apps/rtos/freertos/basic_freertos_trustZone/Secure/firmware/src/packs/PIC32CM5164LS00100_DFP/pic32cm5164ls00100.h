@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-06-26T11:54:56Z */
+/* file generated from device description version 2020-08-03T13:09:29Z */
 #ifndef _PIC32CM5164LS00100_H_
 #define _PIC32CM5164LS00100_H_
 
@@ -30,12 +30,12 @@
 #define HEADER_FORMAT_VERSION_MAJOR (2)
 #define HEADER_FORMAT_VERSION_MINOR (0)
 
-/** \addtogroup PIC32CM5164LS00100_definitions PIC32CM5164LS00100 definitions
+/** \addtogroup PIC32CM5164LS00100_definitions b'PIC32CM5164LS00100 definitions
   This file defines all structures and symbols for PIC32CM5164LS00100:
     - registers and bitfields
     - peripheral base address
     - peripheral ID
-    - PIO definitions
+    - PIO definitions'
  *  @{
  */
 
@@ -65,7 +65,7 @@
 #  define _UL_(x) x   /**< Assembler: Unsigned Long integer literal constant value */
 #endif /* !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 #endif /* SKIP_INTEGER_LITERALS */
-/** @}  end of Atmel Global Defines */
+/** @}  b'end of Atmel Global Defines' */
 
 /* ************************************************************************** */
 /*   CMSIS DEFINITIONS FOR PIC32CM5164LS00100                                 */
@@ -185,7 +185,7 @@ typedef struct _DeviceVectors
   void* pfnSysTick_Handler;                      /*  -1 System Tick Timer */
 
   /* Peripheral handlers */
-  void* pfnSYSTEM_Handler;                       /*   0  (MCLK OSCCTRL OSC32KCTRL PM SUPC) */
+  void* pfnSYSTEM_Handler;                       /*   0 System peripherals shared interrupt (MCLK OSCCTRL OSC32KCTRL PM SUPC) */
   void* pfnWDT_Handler;                          /*   1 Watchdog Timer (WDT) */
   void* pfnRTC_Handler;                          /*   2 Real-Time Counter (RTC) */
   void* pfnEIC_EXTINT_0_Handler;                 /*   3 External Interrupt Controller (EIC) */
@@ -364,7 +364,7 @@ void TRAM_Handler                  ( void );
 #include "system_pic32cmls00.h"
 #endif /* USE_CMSIS_INIT */
 
-/** \defgroup PIC32CM5164LS00100_api Peripheral Software API
+/** \defgroup PIC32CM5164LS00100_api b'Peripheral Software API'
  *  @{
  */
 
@@ -402,9 +402,9 @@ void TRAM_Handler                  ( void );
 #include "component/trng.h"
 #include "component/usb.h"
 #include "component/wdt.h"
-/** @}  end of Peripheral Software API */
+/** @}  b'end of Peripheral Software API' */
 
-/** \addtogroup PIC32CM5164LS00100_id Peripheral Ids Definitions
+/** \addtogroup PIC32CM5164LS00100_id b'Peripheral Ids Definitions'
  *  @{
  */
 
@@ -454,9 +454,9 @@ void TRAM_Handler                  ( void );
 #define ID_TRAM          ( 85) /**< \brief Instance index for TRAM (TRAM) */
 
 #define ID_PERIPH_MAX    ( 85) /**< \brief Number of peripheral IDs */
-/** @}  end of Peripheral Ids Definitions */
+/** @}  b'end of Peripheral Ids Definitions' */
 
-/** \addtogroup PIC32CM5164LS00100_base Peripheral Base Address Definitions
+/** \addtogroup PIC32CM5164LS00100_base b'Peripheral Base Address Definitions'
  *  @{
  */
 
@@ -514,9 +514,9 @@ void TRAM_Handler                  ( void );
 #define USB_REGS                         ((usb_registers_t*)0x4100a000)                /**< \brief USB Registers Address        */
 #define WDT_REGS                         ((wdt_registers_t*)0x40002000)                /**< \brief WDT Registers Address        */
 #endif /* (defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
-/** @}  end of Peripheral Base Address Definitions */
+/** @}  b'end of Peripheral Base Address Definitions' */
 
-/** \addtogroup PIC32CM5164LS00100_base Peripheral Base Address Definitions
+/** \addtogroup PIC32CM5164LS00100_base b'Peripheral Base Address Definitions'
  *  @{
  */
 
@@ -572,9 +572,9 @@ void TRAM_Handler                  ( void );
 #define TRNG_BASE_ADDRESS                _UL_(0x42004400)                              /**< \brief TRNG Base Address */
 #define USB_BASE_ADDRESS                 _UL_(0x4100a000)                              /**< \brief USB Base Address */
 #define WDT_BASE_ADDRESS                 _UL_(0x40002000)                              /**< \brief WDT Base Address */
-/** @}  end of Peripheral Base Address Definitions */
+/** @}  b'end of Peripheral Base Address Definitions' */
 
-/** \addtogroup PIC32CM5164LS00100_pio Peripheral Pio Definitions
+/** \addtogroup PIC32CM5164LS00100_pio b'Peripheral Pio Definitions'
  *  @{
  */
 
@@ -582,7 +582,7 @@ void TRAM_Handler                  ( void );
 /*   PIO DEFINITIONS FOR PIC32CM5164LS00100                                   */
 /* ************************************************************************** */
 #include "pio/pic32cm5164ls00100.h"
-/** @}  end of Peripheral Pio Definitions */
+/** @}  b'end of Peripheral Pio Definitions' */
 
 /* ************************************************************************** */
 /*   MEMORY MAPPING DEFINITIONS FOR PIC32CM5164LS00100                        */
@@ -842,7 +842,7 @@ void TRAM_Handler                  ( void );
 }
 #endif
 
-/** @}  end of PIC32CM5164LS00100 definitions */
+/** @}  b'end of PIC32CM5164LS00100 definitions' */
 
 
 #endif /* _PIC32CM5164LS00100_H_ */

@@ -46,8 +46,6 @@
 #include "definitions.h"
 #include "device.h"
 
-
-
 // ****************************************************************************
 // ****************************************************************************
 // Section: Configuration Bits
@@ -88,7 +86,7 @@
 #pragma config NONSECA_PORT = CLEAR
 #pragma config NONSECA_AC = CLEAR
 #pragma config NONSECB_IDAU = CLEAR
-#pragma config NONSECB_DSU = CLEAR
+#pragma config NONSECB_DSU = SET
 #pragma config NONSECB_NVMCTRL = CLEAR
 #pragma config NONSECB_DMAC = CLEAR
 #pragma config NONSECB_USB = CLEAR
@@ -165,6 +163,13 @@
 #pragma config BOOTROM_BOCORHASH_6 = 0xffffffff
 #pragma config BOOTROM_BOCORHASH_7 = 0xffffffff
 
+
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Local initialization functions
+// *****************************************************************************
+// *****************************************************************************
 
 
 
