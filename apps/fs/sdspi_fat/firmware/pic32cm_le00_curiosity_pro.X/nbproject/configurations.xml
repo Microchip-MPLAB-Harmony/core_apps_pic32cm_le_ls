@@ -21,6 +21,11 @@
             <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/driver_common.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f5" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal_impl_basic.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f5" displayName="clock" projectFiles="true">
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/clock/plib_clock.h</itemPath>
@@ -44,9 +49,9 @@
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="sercom" projectFiles="true">
-              <logicalFolder name="f1" displayName="spim" projectFiles="true">
-                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spim/plib_sercom3_spi.h</itemPath>
-                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spim/plib_sercom_spi_common.h</itemPath>
+              <logicalFolder name="f1" displayName="spi_master" projectFiles="true">
+                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spi_master/plib_sercom3_spi_master.h</itemPath>
+                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spi_master/plib_sercom_spi_master_common.h</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f9" displayName="tc" projectFiles="true">
@@ -99,14 +104,10 @@
           <itemPath>../src/config/pic32cm_le00_curiosity_pro/device_cache.h</itemPath>
           <itemPath>../src/config/pic32cm_le00_curiosity_pro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_le00_curiosity_pro/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cm_le00_curiosity_pro/device.h</itemPath>
           <itemPath>../src/config/pic32cm_le00_curiosity_pro/user.h</itemPath>
           <itemPath>../src/config/pic32cm_le00_curiosity_pro/configuration.h</itemPath>
         </logicalFolder>
-      </logicalFolder>
-      <logicalFolder name="f3" displayName="osal" projectFiles="true">
-        <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal.h</itemPath>
-        <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal_definitions.h</itemPath>
-        <itemPath>../src/config/pic32cm_le00_curiosity_pro/osal/osal_impl_basic.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
@@ -122,6 +123,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
               </logicalFolder>
             </logicalFolder>
@@ -165,15 +167,29 @@
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LE00100_DFP/pio/pic32cm5164le00100.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/PIC32CM5164LE00100_DFP/device.h</itemPath>
           <itemPath>../src/packs/PIC32CM5164LE00100_DFP/pic32cm5164le00100.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony.prj</itemPath>
+      <itemPath>../src/config/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro.xml</itemPath>
+      <itemPath>../../../../../../mhc/../core_apps_pic32cm_le00_ls00/apps/fs/sdspi_fat/firmware/src/config/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro.xml</itemPath>
+    </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1"
+                       displayName="pic32cm_le00_curiosity_pro"
+                       projectFiles="true">
+          <itemPath>../src/config/pic32cm_le00_curiosity_pro/PIC32CM5164LE00100.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -215,8 +231,8 @@
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="sercom" projectFiles="true">
-              <logicalFolder name="f1" displayName="spim" projectFiles="true">
-                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spim/plib_sercom3_spi.c</itemPath>
+              <logicalFolder name="f1" displayName="spi_master" projectFiles="true">
+                <itemPath>../src/config/pic32cm_le00_curiosity_pro/peripheral/sercom/spi_master/plib_sercom3_spi_master.c</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="f9" displayName="tc" projectFiles="true">
@@ -261,13 +277,6 @@
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
-    </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="false">
-      <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony.prj</itemPath>
-      <itemPath>../src/config/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro.xml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -444,7 +453,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32cm_le00_curiosity_pro;../src/packs/PIC32CM5164LE00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/config/pic32cm_le00_curiosity_pro/system/fs/fat_fs/file_system;../src/config/pic32cm_le00_curiosity_pro/system/fs/fat_fs/hardware_access"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -502,8 +512,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/harmony/apps/core/core_apps_pic32cm_le00_ls00/apps/fs/sdspi_fat/firmware/pic32cm_le00_curiosity_pro.X/debug/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

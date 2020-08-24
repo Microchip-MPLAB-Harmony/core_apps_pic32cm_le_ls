@@ -50,11 +50,12 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 
 - To run the demo, the following additional hardware are required:
-  - One [IO1 Xplained Pro Extension Kit](https://www.microchip.com/developmenttools/ProductDetails/ATIO1-XPRO)
+  - One [microSD Click board](https://www.mikroe.com/microsd-click) 
   - One micro-sd card
 
-- Connect [IO1 Xplained Pro Extension Kit](https://www.microchip.com/developmenttools/ProductDetails/ATIO1-XPRO) to the EXT1 header
-- Insert the micro-SD Card in the micro-SD Card slot of the [IO1 Xplained Pro Extension Kit](https://www.microchip.com/developmenttools/ProductDetails/ATIO1-XPRO)
+- Connect [microSD Click board](https://www.mikroe.com/microsd-click) to the mikroBUS header
+- Copy a JPEG file in the SD Card with name FILE_TOO_LONG_NAME_EXAMPLE_123.JPG
+- Insert the micro-SD Card in the micro-SD Card slot of the [microSD Click board](https://www.mikroe.com/microsd-click)
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
 ## Running the Application
