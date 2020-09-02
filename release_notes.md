@@ -1,28 +1,41 @@
-﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
+---
+title: Release notes
+nav_order: 99
+---
+
+![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Harmony 3 core library application examples for PIC32CM LE00/LS00 family v3.8.0
+## Harmony 3 driver and system service application examples for PIC32CM LE/LS family  v3.0.0
+
+### Development kit and demo application support
+
+Following table provides number of peripheral library examples available for different development kits.
+
+| Development Kits  | MPLABx applications |
+|:-----------------:|:-------------------:|
+| [PIC32CM LS00 Curiosity Pro Evaluation Kit]()  | 2 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]()  | 9 |
 
 ### New Features
 
-- **Development kit and demo application support** - The following table provides number of peripheral library application available for different development kits
+New features added in this release are as follows:
 
-    | Development Kits                                                                                                                               | Number of applications |
-    | ---                                                                                                                                            | --- |
-    | [SAM D21 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=ATSAMD21-XPRO)                     | 8 |
+- Applications migrated from csp repository to this new application repository for PIC32CM LE/LS development boards
+
 
 ### Known Issues
 
 The current known issues are as follows:
 
-- <fill me>
+- The following product family requires newer DFP version to be downloaded from packs server and to be used in the MPLAB project to build with MPLAB X IDE v5.4.
+  - **PIC32CM LE/LS Family**: PIC32CM-LE_DFP v1.0.88, PIC32CM-LS_DFP v1.0.88
 
 ### Development Tools
 
 - [MPLAB® X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC32 C/C++ Compiler v2.40](https://www.microchip.com/mplab/compilers)
-- [IAR Embedded Workbench® for ARM® (v8.32 or above)](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
 - MPLAB® X IDE plug-ins:
-  - MPLAB® Harmony Configurator (MHC) v3.3.0.0 and above.
+  - MPLAB® Harmony Configurator (MHC) v3.6.0
+- [MPLAB® XC32 C/C++ Compiler v2.41](https://www.microchip.com/mplab/compilers)
