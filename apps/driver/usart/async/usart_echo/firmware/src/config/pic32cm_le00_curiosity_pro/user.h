@@ -56,9 +56,9 @@ extern "C" {
 // Section: User Configuration macros
 // *****************************************************************************
 // *****************************************************************************
-#define LED_ON()            LED_On()
-#define LED_OFF()           LED_Off()
-#define LED_TOGGLE()        LED_Toggle()
+#define LED_ON()            LED0_On()
+#define LED_OFF()           LED0_Off()
+#define LED_TOGGLE()        LED0_Toggle()
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus

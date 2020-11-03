@@ -292,6 +292,8 @@ typedef struct
     volatile uintptr_t                   rxContext;
 
     volatile bool                        rxBusyStatus;
+	
+	volatile USART_ERROR				 errorStatus;
 
 } SERCOM_USART_OBJECT;
 
@@ -375,6 +377,8 @@ typedef struct
     uint32_t                                            rdThreshold;
 
     bool                                                isRdNotifyPersistently;
+	
+	volatile USART_ERROR								errorStatus;
 
 } SERCOM_USART_RING_BUFFER_OBJECT;
 
