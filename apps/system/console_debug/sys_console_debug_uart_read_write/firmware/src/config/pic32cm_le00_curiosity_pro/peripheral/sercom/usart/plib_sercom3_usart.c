@@ -121,6 +121,7 @@ void SERCOM3_USART_Initialize( void )
     sercom3USARTObj.isRdNotificationEnabled = false;
     sercom3USARTObj.isRdNotifyPersistently = false;
     sercom3USARTObj.rdThreshold = 0;
+    sercom3USARTObj.errorStatus = USART_ERROR_NONE;
     sercom3USARTObj.wrCallback = NULL;
     sercom3USARTObj.wrInIndex = 0;
     sercom3USARTObj.wrOutIndex = 0;
@@ -182,13 +183,13 @@ bool SERCOM3_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
             /* Configure Parity Options */
             if(serialSetup->parity == USART_PARITY_NONE)
             {
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLA |=  (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~(SERCOM_USART_INT_CTRLA_SAMPR_Msk | SERCOM_USART_INT_CTRLA_FORM_Msk)) | SERCOM_USART_INT_CTRLA_FORM(0x0) | SERCOM_USART_INT_CTRLA_SAMPR(sampleRate); 
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Pos)) | ((uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits);
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLA =  (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~(SERCOM_USART_INT_CTRLA_SAMPR_Msk | SERCOM_USART_INT_CTRLA_FORM_Msk)) | SERCOM_USART_INT_CTRLA_FORM(0x0) | SERCOM_USART_INT_CTRLA_SAMPR(sampleRate); 
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLB = (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Msk)) | ((uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits);
             }
             else
             {
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLA |=  (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~(SERCOM_USART_INT_CTRLA_SAMPR_Msk | SERCOM_USART_INT_CTRLA_FORM_Msk)) | SERCOM_USART_INT_CTRLA_FORM(0x1) | SERCOM_USART_INT_CTRLA_SAMPR(sampleRate); 
-                SERCOM3_REGS->USART_INT.SERCOM_CTRLB |= (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Pos | SERCOM_USART_INT_CTRLB_PMODE_Msk)) | (uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits | (uint32_t) serialSetup->parity ;
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLA =  (SERCOM3_REGS->USART_INT.SERCOM_CTRLA & ~(SERCOM_USART_INT_CTRLA_SAMPR_Msk | SERCOM_USART_INT_CTRLA_FORM_Msk)) | SERCOM_USART_INT_CTRLA_FORM(0x1) | SERCOM_USART_INT_CTRLA_SAMPR(sampleRate); 
+                SERCOM3_REGS->USART_INT.SERCOM_CTRLB = (SERCOM3_REGS->USART_INT.SERCOM_CTRLB & ~(SERCOM_USART_INT_CTRLB_CHSIZE_Msk | SERCOM_USART_INT_CTRLB_SBMODE_Msk | SERCOM_USART_INT_CTRLB_PMODE_Msk)) | (uint32_t) serialSetup->dataWidth | (uint32_t) serialSetup->stopBits | (uint32_t) serialSetup->parity ;
             }
 
             /* Wait for sync */
@@ -229,14 +230,9 @@ void static SERCOM3_USART_ErrorClear( void )
 
 USART_ERROR SERCOM3_USART_ErrorGet( void )
 {
-    USART_ERROR errorStatus = USART_ERROR_NONE;
+    USART_ERROR errorStatus = sercom3USARTObj.errorStatus;
 
-    errorStatus = (USART_ERROR) (SERCOM3_REGS->USART_INT.SERCOM_STATUS & (SERCOM_USART_INT_STATUS_PERR_Msk | SERCOM_USART_INT_STATUS_FERR_Msk | SERCOM_USART_INT_STATUS_BUFOVF_Msk ));
-
-    if(errorStatus != USART_ERROR_NONE)
-    {
-        SERCOM3_USART_ErrorClear();
-    }
+    sercom3USARTObj.errorStatus = USART_ERROR_NONE;
 
     return errorStatus;
 }
@@ -581,29 +577,27 @@ void SERCOM3_USART_WriteCallbackRegister( SERCOM_USART_RING_BUFFER_CALLBACK call
 
 void static SERCOM3_USART_ISR_ERR_Handler( void )
 {
-    USART_ERROR errorStatus = USART_ERROR_NONE;
-
-    errorStatus = (SERCOM3_REGS->USART_INT.SERCOM_STATUS &
-                  (SERCOM_USART_INT_STATUS_PERR_Msk |
-                  SERCOM_USART_INT_STATUS_FERR_Msk |
-                  SERCOM_USART_INT_STATUS_BUFOVF_Msk ));
+    USART_ERROR errorStatus = (USART_ERROR)(SERCOM3_REGS->USART_INT.SERCOM_STATUS & (SERCOM_USART_INT_STATUS_PERR_Msk | SERCOM_USART_INT_STATUS_FERR_Msk | SERCOM_USART_INT_STATUS_BUFOVF_Msk ));
 
     if(errorStatus != USART_ERROR_NONE)
     {
-        SERCOM3_REGS->USART_INT.SERCOM_INTENCLR = SERCOM_USART_INT_INTENCLR_ERROR_Msk;
+        /* Save the error to report later */
+        sercom3USARTObj.errorStatus = errorStatus;
+
+        /* Clear error flags and flush the error bytes */
+        SERCOM3_USART_ErrorClear();
 
         if(sercom3USARTObj.rdCallback != NULL)
         {
             sercom3USARTObj.rdCallback(SERCOM_USART_EVENT_READ_ERROR, sercom3USARTObj.rdContext);
         }
-
-        /* In case of errors are not cleared by client using ErrorGet API */
-        SERCOM3_USART_ErrorClear();
     }
 }
 
 void static SERCOM3_USART_ISR_RX_Handler( void )
 {
+
+
     if (SERCOM3_USART_RxPushByte( SERCOM3_REGS->USART_INT.SERCOM_DATA) == true)
     {
         SERCOM3_USART_ReadNotificationSend();
@@ -641,16 +635,17 @@ void SERCOM3_USART_InterruptHandler( void )
             SERCOM3_USART_ISR_TX_Handler();
         }
 
+        /* Checks for error flag */
+        if((SERCOM3_REGS->USART_INT.SERCOM_INTENSET & SERCOM_USART_INT_INTENSET_ERROR_Msk) && (SERCOM3_REGS->USART_INT.SERCOM_INTFLAG & SERCOM_USART_INT_INTFLAG_ERROR_Msk))
+        {
+            SERCOM3_USART_ISR_ERR_Handler();
+        }
+
         /* Checks for receive complete empty flag */
         if((SERCOM3_REGS->USART_INT.SERCOM_INTENSET & SERCOM_USART_INT_INTENSET_RXC_Msk) && (SERCOM3_REGS->USART_INT.SERCOM_INTFLAG & SERCOM_USART_INT_INTFLAG_RXC_Msk))
         {
             SERCOM3_USART_ISR_RX_Handler();
         }
 
-        /* Checks for error flag */
-        if((SERCOM3_REGS->USART_INT.SERCOM_INTENSET & SERCOM_USART_INT_INTENSET_ERROR_Msk) && (SERCOM3_REGS->USART_INT.SERCOM_INTFLAG & SERCOM_USART_INT_INTFLAG_ERROR_Msk))
-        {
-            SERCOM3_USART_ISR_ERR_Handler();
-        }
     }
 }
