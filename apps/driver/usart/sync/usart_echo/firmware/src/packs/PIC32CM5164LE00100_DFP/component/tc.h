@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-08-03T13:09:11Z */
+/* file generated from device description version 2020-08-25T15:51:45Z */
 #ifndef _PIC32CMLE00_TC_COMPONENT_H_
 #define _PIC32CMLE00_TC_COMPONENT_H_
 
