@@ -57,7 +57,7 @@ extern "C" {
 // Section: User Configuration macros
 // *****************************************************************************
 // *****************************************************************************
-#define LED_TOGGLE() LED_Toggle()
+#define LED_TOGGLE() LED0_Toggle()
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus

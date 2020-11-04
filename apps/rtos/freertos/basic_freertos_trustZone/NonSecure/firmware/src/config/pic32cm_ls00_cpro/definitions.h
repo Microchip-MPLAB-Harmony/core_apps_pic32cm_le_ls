@@ -49,6 +49,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include "peripheral/port/plib_port.h"
+#include "peripheral/nvic/plib_nvic.h"
 #include "bsp/bsp.h"
 #include "FreeRTOS.h"
 #include "task.h"

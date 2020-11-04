@@ -104,6 +104,7 @@
 
 void SYS_Initialize ( void* data )
 {
+
   
 
 
@@ -118,6 +119,7 @@ void SYS_Initialize ( void* data )
     APP2_Initialize();
 
 
+    NVIC_Initialize();
 
 }
 

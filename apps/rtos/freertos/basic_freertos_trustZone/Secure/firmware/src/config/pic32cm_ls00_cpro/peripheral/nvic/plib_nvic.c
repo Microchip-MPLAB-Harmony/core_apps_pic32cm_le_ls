@@ -59,10 +59,8 @@ void NVIC_Initialize( void )
      * from within the "Interrupt Manager" of MHC. */
     NVIC_SetTargetState(SVCall_IRQn);
     NVIC_SetTargetState(PendSV_IRQn);
-    NVIC_SetPriority(SysTick_IRQn, 3);
     NVIC_SetTargetState(SysTick_IRQn);
 
 
 
-    return;
 }

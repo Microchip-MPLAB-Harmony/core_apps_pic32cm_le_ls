@@ -322,12 +322,6 @@ typedef enum
     /* PC26 pin */
     PORT_PIN_PC26 = 26,
 
-    /* PC27 pin */
-    PORT_PIN_PC27 = 27,
-
-    /* PC28 pin */
-    PORT_PIN_PC28 = 28,
-
     /* PA30 pin */
     PORT_PIN_PA30 = 30,
 
