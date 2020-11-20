@@ -1,0 +1,77 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32cm_le_ls_driver_i2c_async_i2c_eeprom_pic32cm_le00_curiosity_pro",
+		"version": "3.0.1",
+		"displayName": "I2C driver asynchronous - I2C EEPROM Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "async_i2c_eeprom_pic32cm_le00_curiosity_pro",
+		"shortDescription": "This example application shows how to use the I2C driver in asynchronous mode to perform operations on the EEPROM.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "CMSIS",
+			"semverRange": "^5.4.0"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164LE00100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM LE00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Drivers", "I2C"
+			],
+			[
+				"Peripherals", "I2C"
+			]
+		],
+		"peripherals": [
+			"I2C"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM5164LE00100",
+			"PIC32CM LE00/LS00/LS60 Family",
+			"I2C",
+			"Serial Communication",
+			"SERCOM",
+			"TWI",
+			"FLEXCOM"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

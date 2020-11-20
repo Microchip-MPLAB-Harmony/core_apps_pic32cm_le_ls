@@ -8,6 +8,22 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+# Microchip MPLAB® Harmony 3 Release Notes
+
+## Harmony 3 driver and system service application examples for PIC32CM LE/LS family  v3.0.1
+
+### New Features
+- Added discover.microchip.com metadata
+
+### Bug fixes
+- Same as v3.0.0
+
+### Known Issues
+- Same as v3.0.0
+
+### Development Tools
+- Same as v3.0.0
+
 ## Harmony 3 driver and system service application examples for PIC32CM LE/LS family  v3.0.0
 
 ### Development kit and demo application support

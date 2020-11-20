@@ -1,0 +1,77 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32cm_le_ls_driver_usart_async_usart_echo_pic32cm_le00_curiosity_pro",
+		"version": "3.0.1",
+		"displayName": "USART driver asynchronous - UART echo Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "usart_echo_pic32cm_le00_curiosity_pro",
+		"shortDescription": "This example echoes the received characters over the console using the USART driver in asynchronous mode.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-LE_DFP",
+			"semverRange": "^1.0.85"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164LE00100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM LE00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Drivers", "USART"
+			],
+			[
+				"Peripherals", "USART"
+			]
+		],
+		"peripherals": [
+			"USART"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM5164LE00100",
+			"PIC32CM LE00/LS00/LS60 Family",
+			"UART",
+			"Serial Communication",
+			"USART",
+			"SERCOM",
+			"FLEXCOM"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
