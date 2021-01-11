@@ -63,11 +63,14 @@ void PM_Initialize( void )
     /* Clear INTFLAG.PLRDY */
     PM_REGS->PM_INTFLAG |= PM_INTENCLR_PLRDY_Msk;
 
-    /* Configure performance level */
-    PM_REGS->PM_PLCFG = PM_PLCFG_PLSEL_PL2;
+    if ((PM_REGS->PM_PLCFG & PM_PLCFG_PLSEL_Msk) != PM_PLCFG_PLSEL_PL2)
+    {
+        /* Configure performance level */
+        PM_REGS->PM_PLCFG = PM_PLCFG_PLSEL_PL2;
 
-    /* Wait for performance level transition to complete */
-    while(!(PM_REGS->PM_INTFLAG & PM_INTFLAG_PLRDY_Msk));
+        /* Wait for performance level transition to complete */
+        while(!(PM_REGS->PM_INTFLAG & PM_INTFLAG_PLRDY_Msk));
+    }
 }
 
 void PM_IdleModeEnter( void )
