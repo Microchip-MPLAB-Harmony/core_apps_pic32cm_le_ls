@@ -82,5 +82,5 @@ Refer to the following table for switch and LED name:
 
 | Board | Switch name | LED Name |
 | ----- | -------- | --------- |
-|  [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW1 | LED1 |
+|  [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW0 | LED0 |
 |||
