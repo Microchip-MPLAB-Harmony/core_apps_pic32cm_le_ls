@@ -18,15 +18,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: drv_sdspi, value: Asynchronous}
-  - type: File
-    attributes: {id: DRV_SDSPI_FS_SOURCE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
 - type: Instances
   children:
   - type: InstanceComponent
@@ -34,24 +25,6 @@ children:
     children:
     - type: Symbols
       children:
-      - type: File
-        attributes: {id: DRV_SDSPI_ASYNC_PLIB_INTERFACE_HEADER}
-        children:
-        - type: Attributes
-          children:
-          - type: Boolean
-            attributes: {id: enabled}
-            children:
-            - {type: Value, value: 'true'}
-      - type: File
-        attributes: {id: DRV_SDSPI_ASYNC_PLIB_INTERFACE_SOURCE}
-        children:
-        - type: Attributes
-          children:
-          - type: Boolean
-            attributes: {id: enabled}
-            children:
-            - {type: Value, value: 'true'}
       - type: KeyValueSet
         attributes: {id: DRV_SDSPI_CHIP_SELECT_PIN}
         children:
@@ -76,25 +49,22 @@ children:
       - type: String
         attributes: {id: DRV_SDSPI_PLIB}
         children:
-        - type: Attributes
-          children:
-          - type: Boolean
-            attributes: {id: visible}
-            children:
-            - {type: Value, value: 'true'}
         - type: Values
           children:
           - type: Dynamic
             attributes: {id: drv_sdspi_0, value: SERCOM3}
-      - type: Integer
-        attributes: {id: DRV_SDSPI_RX_DMA_CHANNEL}
+      - type: Menu
+        attributes: {id: DRV_SDSPI_RTOS_MENU}
         children:
         - type: Attributes
           children:
           - type: Boolean
             attributes: {id: visible}
             children:
-            - {type: Value, value: 'true'}
+            - {type: Value, value: 'false'}
+      - type: Integer
+        attributes: {id: DRV_SDSPI_RX_DMA_CHANNEL}
+        children:
         - type: Values
           children:
           - type: Dynamic
@@ -102,12 +72,6 @@ children:
       - type: Integer
         attributes: {id: DRV_SDSPI_TX_DMA_CHANNEL}
         children:
-        - type: Attributes
-          children:
-          - type: Boolean
-            attributes: {id: visible}
-            children:
-            - {type: Value, value: 'true'}
         - type: Values
           children:
           - type: Dynamic
@@ -115,16 +79,6 @@ children:
       - type: Boolean
         attributes: {id: DRV_SDSPI_TX_RX_DMA}
         children:
-        - type: Attributes
-          children:
-          - type: Boolean
-            attributes: {id: readOnly}
-            children:
-            - {type: Value, value: 'false'}
-          - type: Boolean
-            attributes: {id: visible}
-            children:
-            - {type: Value, value: 'true'}
         - type: Values
           children:
           - type: User
