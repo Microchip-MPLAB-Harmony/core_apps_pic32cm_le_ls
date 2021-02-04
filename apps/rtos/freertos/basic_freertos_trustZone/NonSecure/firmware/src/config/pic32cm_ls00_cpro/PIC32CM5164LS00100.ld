@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------------
  * MPLAB XC32 Compiler -  PIC32CM5164LS00100 linker script
  * 
- * Copyright (c) 2020, Microchip Technology Inc. and its subsidiaries ("Microchip")
+ * Copyright (c) 2021, Microchip Technology Inc. and its subsidiaries ("Microchip")
  * All rights reserved.
  * 
  * This software is developed by Microchip Technology Inc. and its
@@ -220,61 +220,61 @@ MEMORY
 #endif
   ram (WX!R) : ORIGIN = TZ_RAM_ORIGIN, LENGTH = TZ_RAM_LENGTH
   config_D0804000 : ORIGIN = 0xD0804000, LENGTH = 0x4
-  config_D0804004 : ORIGIN = 0xD0804004, LENGTH = 0x4
-  config_D0804008 : ORIGIN = 0xD0804008, LENGTH = 0x4
-  config_D080400C : ORIGIN = 0xD080400C, LENGTH = 0x4
-  config_D0804010 : ORIGIN = 0xD0804010, LENGTH = 0x4
-  config_D0804014 : ORIGIN = 0xD0804014, LENGTH = 0x4
-  config_D0804018 : ORIGIN = 0xD0804018, LENGTH = 0x4
-  config_D080401C : ORIGIN = 0xD080401C, LENGTH = 0x4
-  config_D0804020 : ORIGIN = 0xD0804020, LENGTH = 0x4
   config_D0806000 : ORIGIN = 0xD0806000, LENGTH = 0x4
-  config_D0806004 : ORIGIN = 0xD0806004, LENGTH = 0x4
-  config_D080600C : ORIGIN = 0xD080600C, LENGTH = 0x4
-  config_D0806020 : ORIGIN = 0xD0806020, LENGTH = 0x4
+  config_D080C084 : ORIGIN = 0xD080C084, LENGTH = 0x4
+  config_D0804004 : ORIGIN = 0xD0804004, LENGTH = 0x4
   config_D080C000 : ORIGIN = 0xD080C000, LENGTH = 0x4
-  config_D080C004 : ORIGIN = 0xD080C004, LENGTH = 0x4
-  config_D080C008 : ORIGIN = 0xD080C008, LENGTH = 0x4
+  config_D0804008 : ORIGIN = 0xD0804008, LENGTH = 0x4
+  config_D080C0EC : ORIGIN = 0xD080C0EC, LENGTH = 0x4
+  config_D080C080 : ORIGIN = 0xD080C080, LENGTH = 0x4
+  config_D080600C : ORIGIN = 0xD080600C, LENGTH = 0x4
   config_D080C010 : ORIGIN = 0xD080C010, LENGTH = 0x4
+  config_D0804018 : ORIGIN = 0xD0804018, LENGTH = 0x4
   config_D080C014 : ORIGIN = 0xD080C014, LENGTH = 0x4
   config_D080C018 : ORIGIN = 0xD080C018, LENGTH = 0x4
+  config_D0806004 : ORIGIN = 0xD0806004, LENGTH = 0x4
   config_D080C01C : ORIGIN = 0xD080C01C, LENGTH = 0x4
-  config_D080C020 : ORIGIN = 0xD080C020, LENGTH = 0x4
+  config_D0804020 : ORIGIN = 0xD0804020, LENGTH = 0x4
+  config_D080C0F0 : ORIGIN = 0xD080C0F0, LENGTH = 0x4
   config_D080C024 : ORIGIN = 0xD080C024, LENGTH = 0x4
   config_D080C028 : ORIGIN = 0xD080C028, LENGTH = 0x4
+  config_D080401C : ORIGIN = 0xD080401C, LENGTH = 0x4
   config_D080C02C : ORIGIN = 0xD080C02C, LENGTH = 0x4
   config_D080C030 : ORIGIN = 0xD080C030, LENGTH = 0x4
+  config_D080C008 : ORIGIN = 0xD080C008, LENGTH = 0x4
   config_D080C034 : ORIGIN = 0xD080C034, LENGTH = 0x4
   config_D080C038 : ORIGIN = 0xD080C038, LENGTH = 0x4
+  config_D080C0F4 : ORIGIN = 0xD080C0F4, LENGTH = 0x4
   config_D080C03C : ORIGIN = 0xD080C03C, LENGTH = 0x4
   config_D080C040 : ORIGIN = 0xD080C040, LENGTH = 0x4
+  config_D0806020 : ORIGIN = 0xD0806020, LENGTH = 0x4
   config_D080C044 : ORIGIN = 0xD080C044, LENGTH = 0x4
+  config_D080C020 : ORIGIN = 0xD080C020, LENGTH = 0x4
   config_D080C048 : ORIGIN = 0xD080C048, LENGTH = 0x4
+  config_D080400C : ORIGIN = 0xD080400C, LENGTH = 0x4
   config_D080C04C : ORIGIN = 0xD080C04C, LENGTH = 0x4
+  config_D080C0E0 : ORIGIN = 0xD080C0E0, LENGTH = 0x4
   config_D080C050 : ORIGIN = 0xD080C050, LENGTH = 0x4
+  config_D080C0F8 : ORIGIN = 0xD080C0F8, LENGTH = 0x4
   config_D080C054 : ORIGIN = 0xD080C054, LENGTH = 0x4
   config_D080C058 : ORIGIN = 0xD080C058, LENGTH = 0x4
+  config_D080C0E4 : ORIGIN = 0xD080C0E4, LENGTH = 0x4
   config_D080C05C : ORIGIN = 0xD080C05C, LENGTH = 0x4
   config_D080C060 : ORIGIN = 0xD080C060, LENGTH = 0x4
+  config_D0804010 : ORIGIN = 0xD0804010, LENGTH = 0x4
   config_D080C064 : ORIGIN = 0xD080C064, LENGTH = 0x4
   config_D080C068 : ORIGIN = 0xD080C068, LENGTH = 0x4
+  config_D080C0FC : ORIGIN = 0xD080C0FC, LENGTH = 0x4
   config_D080C06C : ORIGIN = 0xD080C06C, LENGTH = 0x4
   config_D080C070 : ORIGIN = 0xD080C070, LENGTH = 0x4
+  config_D080C0E8 : ORIGIN = 0xD080C0E8, LENGTH = 0x4
+  config_D080C08C : ORIGIN = 0xD080C08C, LENGTH = 0x4
   config_D080C074 : ORIGIN = 0xD080C074, LENGTH = 0x4
   config_D080C078 : ORIGIN = 0xD080C078, LENGTH = 0x4
-  config_D080C07C : ORIGIN = 0xD080C07C, LENGTH = 0x4
-  config_D080C080 : ORIGIN = 0xD080C080, LENGTH = 0x4
-  config_D080C084 : ORIGIN = 0xD080C084, LENGTH = 0x4
+  config_D0804014 : ORIGIN = 0xD0804014, LENGTH = 0x4
   config_D080C088 : ORIGIN = 0xD080C088, LENGTH = 0x4
-  config_D080C08C : ORIGIN = 0xD080C08C, LENGTH = 0x4
-  config_D080C0E0 : ORIGIN = 0xD080C0E0, LENGTH = 0x4
-  config_D080C0E4 : ORIGIN = 0xD080C0E4, LENGTH = 0x4
-  config_D080C0E8 : ORIGIN = 0xD080C0E8, LENGTH = 0x4
-  config_D080C0EC : ORIGIN = 0xD080C0EC, LENGTH = 0x4
-  config_D080C0F0 : ORIGIN = 0xD080C0F0, LENGTH = 0x4
-  config_D080C0F4 : ORIGIN = 0xD080C0F4, LENGTH = 0x4
-  config_D080C0F8 : ORIGIN = 0xD080C0F8, LENGTH = 0x4
-  config_D080C0FC : ORIGIN = 0xD080C0FC, LENGTH = 0x4
+  config_D080C07C : ORIGIN = 0xD080C07C, LENGTH = 0x4
+  config_D080C004 : ORIGIN = 0xD080C004, LENGTH = 0x4
 
 }
 
@@ -292,171 +292,171 @@ SECTIONS
     .config_D0804000 : {
       KEEP(*(.config_D0804000))
     } > config_D0804000
-    .config_D0804004 : {
-      KEEP(*(.config_D0804004))
-    } > config_D0804004
-    .config_D0804008 : {
-      KEEP(*(.config_D0804008))
-    } > config_D0804008
-    .config_D080400C : {
-      KEEP(*(.config_D080400C))
-    } > config_D080400C
-    .config_D0804010 : {
-      KEEP(*(.config_D0804010))
-    } > config_D0804010
-    .config_D0804014 : {
-      KEEP(*(.config_D0804014))
-    } > config_D0804014
-    .config_D0804018 : {
-      KEEP(*(.config_D0804018))
-    } > config_D0804018
-    .config_D080401C : {
-      KEEP(*(.config_D080401C))
-    } > config_D080401C
-    .config_D0804020 : {
-      KEEP(*(.config_D0804020))
-    } > config_D0804020
     .config_D0806000 : {
       KEEP(*(.config_D0806000))
     } > config_D0806000
-    .config_D0806004 : {
-      KEEP(*(.config_D0806004))
-    } > config_D0806004
-    .config_D080600C : {
-      KEEP(*(.config_D080600C))
-    } > config_D080600C
-    .config_D0806020 : {
-      KEEP(*(.config_D0806020))
-    } > config_D0806020
+    .config_D080C084 : {
+      KEEP(*(.config_D080C084))
+    } > config_D080C084
+    .config_D0804004 : {
+      KEEP(*(.config_D0804004))
+    } > config_D0804004
     .config_D080C000 : {
       KEEP(*(.config_D080C000))
     } > config_D080C000
-    .config_D080C004 : {
-      KEEP(*(.config_D080C004))
-    } > config_D080C004
-    .config_D080C008 : {
-      KEEP(*(.config_D080C008))
-    } > config_D080C008
+    .config_D0804008 : {
+      KEEP(*(.config_D0804008))
+    } > config_D0804008
+    .config_D080C0EC : {
+      KEEP(*(.config_D080C0EC))
+    } > config_D080C0EC
+    .config_D080C080 : {
+      KEEP(*(.config_D080C080))
+    } > config_D080C080
+    .config_D080600C : {
+      KEEP(*(.config_D080600C))
+    } > config_D080600C
     .config_D080C010 : {
       KEEP(*(.config_D080C010))
     } > config_D080C010
+    .config_D0804018 : {
+      KEEP(*(.config_D0804018))
+    } > config_D0804018
     .config_D080C014 : {
       KEEP(*(.config_D080C014))
     } > config_D080C014
     .config_D080C018 : {
       KEEP(*(.config_D080C018))
     } > config_D080C018
+    .config_D0806004 : {
+      KEEP(*(.config_D0806004))
+    } > config_D0806004
     .config_D080C01C : {
       KEEP(*(.config_D080C01C))
     } > config_D080C01C
-    .config_D080C020 : {
-      KEEP(*(.config_D080C020))
-    } > config_D080C020
+    .config_D0804020 : {
+      KEEP(*(.config_D0804020))
+    } > config_D0804020
+    .config_D080C0F0 : {
+      KEEP(*(.config_D080C0F0))
+    } > config_D080C0F0
     .config_D080C024 : {
       KEEP(*(.config_D080C024))
     } > config_D080C024
     .config_D080C028 : {
       KEEP(*(.config_D080C028))
     } > config_D080C028
+    .config_D080401C : {
+      KEEP(*(.config_D080401C))
+    } > config_D080401C
     .config_D080C02C : {
       KEEP(*(.config_D080C02C))
     } > config_D080C02C
     .config_D080C030 : {
       KEEP(*(.config_D080C030))
     } > config_D080C030
+    .config_D080C008 : {
+      KEEP(*(.config_D080C008))
+    } > config_D080C008
     .config_D080C034 : {
       KEEP(*(.config_D080C034))
     } > config_D080C034
     .config_D080C038 : {
       KEEP(*(.config_D080C038))
     } > config_D080C038
+    .config_D080C0F4 : {
+      KEEP(*(.config_D080C0F4))
+    } > config_D080C0F4
     .config_D080C03C : {
       KEEP(*(.config_D080C03C))
     } > config_D080C03C
     .config_D080C040 : {
       KEEP(*(.config_D080C040))
     } > config_D080C040
+    .config_D0806020 : {
+      KEEP(*(.config_D0806020))
+    } > config_D0806020
     .config_D080C044 : {
       KEEP(*(.config_D080C044))
     } > config_D080C044
+    .config_D080C020 : {
+      KEEP(*(.config_D080C020))
+    } > config_D080C020
     .config_D080C048 : {
       KEEP(*(.config_D080C048))
     } > config_D080C048
+    .config_D080400C : {
+      KEEP(*(.config_D080400C))
+    } > config_D080400C
     .config_D080C04C : {
       KEEP(*(.config_D080C04C))
     } > config_D080C04C
+    .config_D080C0E0 : {
+      KEEP(*(.config_D080C0E0))
+    } > config_D080C0E0
     .config_D080C050 : {
       KEEP(*(.config_D080C050))
     } > config_D080C050
+    .config_D080C0F8 : {
+      KEEP(*(.config_D080C0F8))
+    } > config_D080C0F8
     .config_D080C054 : {
       KEEP(*(.config_D080C054))
     } > config_D080C054
     .config_D080C058 : {
       KEEP(*(.config_D080C058))
     } > config_D080C058
+    .config_D080C0E4 : {
+      KEEP(*(.config_D080C0E4))
+    } > config_D080C0E4
     .config_D080C05C : {
       KEEP(*(.config_D080C05C))
     } > config_D080C05C
     .config_D080C060 : {
       KEEP(*(.config_D080C060))
     } > config_D080C060
+    .config_D0804010 : {
+      KEEP(*(.config_D0804010))
+    } > config_D0804010
     .config_D080C064 : {
       KEEP(*(.config_D080C064))
     } > config_D080C064
     .config_D080C068 : {
       KEEP(*(.config_D080C068))
     } > config_D080C068
+    .config_D080C0FC : {
+      KEEP(*(.config_D080C0FC))
+    } > config_D080C0FC
     .config_D080C06C : {
       KEEP(*(.config_D080C06C))
     } > config_D080C06C
     .config_D080C070 : {
       KEEP(*(.config_D080C070))
     } > config_D080C070
+    .config_D080C0E8 : {
+      KEEP(*(.config_D080C0E8))
+    } > config_D080C0E8
+    .config_D080C08C : {
+      KEEP(*(.config_D080C08C))
+    } > config_D080C08C
     .config_D080C074 : {
       KEEP(*(.config_D080C074))
     } > config_D080C074
     .config_D080C078 : {
       KEEP(*(.config_D080C078))
     } > config_D080C078
-    .config_D080C07C : {
-      KEEP(*(.config_D080C07C))
-    } > config_D080C07C
-    .config_D080C080 : {
-      KEEP(*(.config_D080C080))
-    } > config_D080C080
-    .config_D080C084 : {
-      KEEP(*(.config_D080C084))
-    } > config_D080C084
+    .config_D0804014 : {
+      KEEP(*(.config_D0804014))
+    } > config_D0804014
     .config_D080C088 : {
       KEEP(*(.config_D080C088))
     } > config_D080C088
-    .config_D080C08C : {
-      KEEP(*(.config_D080C08C))
-    } > config_D080C08C
-    .config_D080C0E0 : {
-      KEEP(*(.config_D080C0E0))
-    } > config_D080C0E0
-    .config_D080C0E4 : {
-      KEEP(*(.config_D080C0E4))
-    } > config_D080C0E4
-    .config_D080C0E8 : {
-      KEEP(*(.config_D080C0E8))
-    } > config_D080C0E8
-    .config_D080C0EC : {
-      KEEP(*(.config_D080C0EC))
-    } > config_D080C0EC
-    .config_D080C0F0 : {
-      KEEP(*(.config_D080C0F0))
-    } > config_D080C0F0
-    .config_D080C0F4 : {
-      KEEP(*(.config_D080C0F4))
-    } > config_D080C0F4
-    .config_D080C0F8 : {
-      KEEP(*(.config_D080C0F8))
-    } > config_D080C0F8
-    .config_D080C0FC : {
-      KEEP(*(.config_D080C0FC))
-    } > config_D080C0FC
+    .config_D080C07C : {
+      KEEP(*(.config_D080C07C))
+    } > config_D080C07C
+    .config_D080C004 : {
+      KEEP(*(.config_D080C004))
+    } > config_D080C004
 
     /*
      * The linker moves the .vectors section into itcm when itcm is
@@ -483,6 +483,12 @@ SECTIONS
     {
         . = ALIGN(4);
         *(.glue_7t) *(.glue_7)
+        /* Force the inclusion of debug info for veneers. This is
+         * sensitive to the name of the .o file containing the
+         * cmse_nonsecure_entry functions. What are given are
+         * common file names. */
+        KEEP(*veneer.o(.text.*))
+        KEEP(*nonsecure_entry.o(.text.*))
         *(.gnu.linkonce.r.*)
         *(.ARM.extab* .gnu.linkonce.armextab.*)
 

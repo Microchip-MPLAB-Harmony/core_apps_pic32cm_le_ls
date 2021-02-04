@@ -33,6 +33,8 @@
           <itemPath>../src/config/pic32cm_ls00_cpro/device_cache.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/FreeRTOSConfig.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f3" displayName="FreeRTOS" projectFiles="true">
@@ -106,6 +108,49 @@
             <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/trng.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/usb.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS00100_DFP/component/wdt.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/ac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/adc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/ccl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/dac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/dmac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/dsu.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/eic.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/evsys.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/freqm.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/gclk.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/i2s.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/idau.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/mclk.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/opamp.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/oscctrl.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/pac.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/pm.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/port.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/ptc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom0.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom1.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom2.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom3.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom4.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/sercom5.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tcc0.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tcc1.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tcc2.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tcc3.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/tram.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/usb.h</itemPath>
+            <itemPath>../src/packs/PIC32CM5164LS00100_DFP/instance/wdt.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS00100_DFP/pio/pic32cm5164ls00100.h</itemPath>
@@ -189,18 +234,18 @@
       <logicalFolder name="f1"
                      displayName="pic32cm_ls00_cpro.mhc"
                      projectFiles="true">
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\BSP_PIC32CM_LS00_Curiosity_Pro.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\cmsis.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\evsys.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\FreeRTOS.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\HarmonyCore.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\nvmctrl.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\pm.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\pic32cm_ls00_cpro\pic32cm_ls00_cpro.mhc\settings.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/BSP_PIC32CM_LS00_Curiosity_Pro.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/FreeRTOS.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/HarmonyCore.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/settings.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>..\src\config\pic32cm_ls00_cpro\harmony-manifest-success.yml</itemPath>
@@ -224,7 +269,7 @@
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
-        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.85"/>
+        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.110"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
