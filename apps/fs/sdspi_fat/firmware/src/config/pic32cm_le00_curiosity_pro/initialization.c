@@ -97,7 +97,7 @@ const DRV_SDSPI_PLIB_INTERFACE drvSDSPI0PlibAPI = {
     .read = (DRV_SDSPI_PLIB_READ)SERCOM3_SPI_Read,
 
     /* SPI PLIB Transfer Status function */
-    .isBusy = (DRV_SDSPI_PLIB_IS_BUSY)SERCOM3_SPI_IsBusy,
+    .isTransmitterBusy = (DRV_SPI_PLIB_TRANSMITTER_IS_BUSY)SERCOM3_SPI_IsTransmitterBusy,
 
     .transferSetup = (DRV_SDSPI_PLIB_SETUP)SERCOM3_SPI_TransferSetup,
 
@@ -221,13 +221,15 @@ const SYS_FS_FUNCTIONS FatFsFunctions =
 };
 
 
+
 const SYS_FS_REGISTRATION_TABLE sysFSInit [ SYS_FS_MAX_FILE_SYSTEM_TYPE ] =
 {
     {
         .nativeFileSystemType = FAT,
         .nativeFileSystemFunctions = &FatFsFunctions
-    }
+    },
 };
+
 
 // </editor-fold>
 
