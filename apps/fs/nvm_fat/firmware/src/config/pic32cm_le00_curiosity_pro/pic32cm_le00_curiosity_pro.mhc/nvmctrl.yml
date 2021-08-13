@@ -44,7 +44,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: nvmctrl, value: '2'}
+        attributes: {id: nvmctrl, value: '3'}
   - type: String
     attributes: {id: START_ADDRESS}
     children:
