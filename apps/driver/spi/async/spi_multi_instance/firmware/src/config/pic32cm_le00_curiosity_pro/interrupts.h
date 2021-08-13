@@ -50,6 +50,7 @@
 #include <stdint.h>
 
 
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Handler Routines
@@ -63,7 +64,6 @@ void DMAC_0_InterruptHandler (void);
 void DMAC_1_InterruptHandler (void);
 void DMAC_2_InterruptHandler (void);
 void DMAC_3_InterruptHandler (void);
-void DMAC_OTHER_InterruptHandler (void);
 void SERCOM3_SPI_InterruptHandler (void);
 void SERCOM4_SPI_InterruptHandler (void);
 
