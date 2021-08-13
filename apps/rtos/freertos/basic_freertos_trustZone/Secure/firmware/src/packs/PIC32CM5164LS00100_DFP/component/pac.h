@@ -1,5 +1,5 @@
-/**
- * \brief Component description for PAC
+/*
+ * Component description for PAC
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:20Z */
+/* file generated from device description version 2021-06-28T10:08:49Z */
 #ifndef _PIC32CMLS00_PAC_COMPONENT_H_
 #define _PIC32CMLS00_PAC_COMPONENT_H_
 
@@ -711,10 +711,7 @@
 #define PAC_SECLOCKC_TRAM_Pos                 _U_(21)                                              /**< (PAC_SECLOCKC) TRAM Secure Status Locked Position */
 #define PAC_SECLOCKC_TRAM_Msk                 (_U_(0x1) << PAC_SECLOCKC_TRAM_Pos)                  /**< (PAC_SECLOCKC) TRAM Secure Status Locked Mask */
 #define PAC_SECLOCKC_TRAM(value)              (PAC_SECLOCKC_TRAM_Msk & ((value) << PAC_SECLOCKC_TRAM_Pos))
-#define PAC_SECLOCKC_USB_Pos                  _U_(22)                                              /**< (PAC_SECLOCKC) USB Secure Status Locked Position */
-#define PAC_SECLOCKC_USB_Msk                  (_U_(0x1) << PAC_SECLOCKC_USB_Pos)                   /**< (PAC_SECLOCKC) USB Secure Status Locked Mask */
-#define PAC_SECLOCKC_USB(value)               (PAC_SECLOCKC_USB_Msk & ((value) << PAC_SECLOCKC_USB_Pos))
-#define PAC_SECLOCKC_Msk                      _U_(0x007FFFFF)                                      /**< (PAC_SECLOCKC) Register Mask  */
+#define PAC_SECLOCKC_Msk                      _U_(0x003FFFFF)                                      /**< (PAC_SECLOCKC) Register Mask  */
 
 #define PAC_SECLOCKC_SERCOM_Pos               _U_(1)                                               /**< (PAC_SECLOCKC Position) SERCOMx Secure Status Locked */
 #define PAC_SECLOCKC_SERCOM_Msk               (_U_(0x3F) << PAC_SECLOCKC_SERCOM_Pos)               /**< (PAC_SECLOCKC Mask) SERCOM */

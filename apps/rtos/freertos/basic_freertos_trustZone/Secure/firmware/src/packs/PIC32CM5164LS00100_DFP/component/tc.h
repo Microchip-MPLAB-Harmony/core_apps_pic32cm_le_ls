@@ -1,5 +1,5 @@
-/**
- * \brief Component description for TC
+/*
+ * Component description for TC
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:20Z */
+/* file generated from device description version 2021-06-28T10:08:49Z */
 #ifndef _PIC32CMLS00_TC_COMPONENT_H_
 #define _PIC32CMLS00_TC_COMPONENT_H_
 

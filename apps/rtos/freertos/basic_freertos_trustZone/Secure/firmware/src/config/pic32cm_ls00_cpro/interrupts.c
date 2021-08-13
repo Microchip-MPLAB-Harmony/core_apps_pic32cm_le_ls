@@ -75,6 +75,7 @@ void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call, no
 /* Device vectors list dummy definition*/
 extern void vPortSVCHandler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void xPortPendSVHandler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void xPortSysTickHandler        ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void SYSTEM_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void WDT_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void RTC_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
