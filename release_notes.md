@@ -14,7 +14,7 @@ nav_order: 99
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 9 |
 | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 2 |
@@ -40,7 +40,7 @@ Following table provides number of peripheral library examples available for dif
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 9 |
 | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 2 |
@@ -81,7 +81,7 @@ Following table provides number of peripheral library examples available for dif
 
 Following table provides number of peripheral library examples available for different development kits.
 
-| Development Kits  | MPLABx applications |
+| Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
 | [PIC32CM LS00 Curiosity Pro Evaluation Kit]()  | 2 |
 | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()  | 9 |
