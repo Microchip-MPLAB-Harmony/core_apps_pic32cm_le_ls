@@ -1,4 +1,4 @@
-<config configName="pic32cm_le00_curiosity_pro_freertos" projectName="sync_usart_echo_pic32cm_le00_curiosity_pro_freertos" configVersion="1.1" device="PIC32CM5164LE00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32cm_le00_curiosity_pro_freertos" projectName="sync_usart_echo_pic32cm_le00_curiosity_pro_freertos" configVersion="1.1" device="PIC32CM5164LE00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -51,7 +51,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -2557,7 +2557,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\mclk.h</file>
-         <hash>73bdbb9d1e09c199125a590730379d8683aa032300acc0dcb7036fce622478cb</hash>
+         <hash>fd38617d5ac30321d2c7707bcf5c8d62295223bdcbd71e9daa3627b7ca78b392</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
@@ -2569,7 +2569,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>2bdfb8e3c1a76a5ccacb1b7815ca9acb63d1ba1f1bd29e5a75757d5e186c5056</hash>
+         <hash>85a11a834d04120402087ac61190566f893480e9d6c8fe903218330dc4ea7d30</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\system_module.h</file>
@@ -2577,7 +2577,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\device_vectors.h</file>
-         <hash>a574f29d2c99b2c60822c8b85ce9e580ca35f1fa6980a45024f3663acd45a897</hash>
+         <hash>3a011f1bdb4c98be56a8ca6c29cf9ea967940ecff4ba83a1946be481802a5c3f</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h</file>
@@ -2585,7 +2585,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>0d16405e621a2c4b003b5f0324b9713cd4865364133df6f742f482a6b2dbc773</hash>
+         <hash>dae8ab1093eed0eebd86eef7f4e777e3d249d98b75528ff3841d41ce1c8f3fa6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\osal\osal_freertos.c</file>
@@ -2593,11 +2593,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>0607fcca1927ba782a29a3814481d69db3569e6e53a68ebf2c01f5598a3af2b8</hash>
+         <hash>43bd2a4bf5d6495e04c8409187d8f31dfaee58d8f94d7e3a4fd9830e5d7e68dc</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\supc.h</file>
-         <hash>427935634139298dd481f40b9606d83761b4a934c514ea5c08b968c1d426298a</hash>
+         <hash>b6f99ebc4977a8f0b1269fb8b2a144dc8a18d7d0c49cd9ce65371e4937090c3f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\osal\osal.h</file>
@@ -2609,19 +2609,19 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\adc.h</file>
-         <hash>c7386600574abf9845e4d6d6ea459b28e246c46cd8c8f861319a13bf881cef67</hash>
+         <hash>2c8154d9f571a9986063dc2c1bcc331f44bc536b5888119cfa703175119496b0</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom2.h</file>
-         <hash>ac50f2241a29b57d4c058c51e44450bef9dda249f28632ddc70e9b3caba3e5b9</hash>
+         <hash>e1e5d47410376cd3dd7557ef2fe8ee3bb4db3a8d25f51ecd68f89b85d60bfe99</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>f9b239f168976f7b167e054fa72616826f55ae4d74d76b87c9e70b2df079363f</hash>
+         <hash>f288a68b8559a1913dd663136711f7adcaf8b3430627d7102978be4d808a02eb</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tcc1.h</file>
-         <hash>498a3ebc33e188cfc2a26521deaad290dda92ee71af559a3242819c37ce22c07</hash>
+         <hash>e1dafbfe333fc8b050d4ebaad9c9b4e21553ff7faf95d56d99576707ffe8753b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\driver\usart\src\drv_usart.c</file>
@@ -2629,23 +2629,23 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>8df4c5eec7eb30262f09b7c47fc2eb0534a27721293b0d260a3398846494f9ac</hash>
+         <hash>b6da8ad0cb09303c87eb634679b97f56001c14f45acd1378103504699a95cad4</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>e31cd1c9c280c919a92edc28885e9bebce589d4cfab71cefab832a73683200fb</hash>
+         <hash>4566d5abfceea128a553ecf2bbb22b9d7c9c8a1d3c1f02f9091182b5290d02fc</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\port.h</file>
-         <hash>0efa4e78434b1ad3fbf500d90c2b6b0ab368fc82c9f5d91fc27de6f87cbfba3e</hash>
+         <hash>8a68872c49aa3d5e208e96f63d71c782d9f76ddcc865079709da0f2e6b2867cb</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\trng.h</file>
-         <hash>5a1d78dadfa4f90a878bb272ec18c374a9079608bdb096117cba5bfe2972247a</hash>
+         <hash>abeb2ae581b866df26cf2a2f40b962b18fab8095bdfa4230432c73244a1059c3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\driver\usart\drv_usart.h</file>
-         <hash>60d1ab81b5558b710e14241f92d60171c651716a2363c8a74f9e38e2bedd3656</hash>
+         <hash>38c9b2141416ac19cc67edf851ed6ab381d5c19c8878c8460df6a3190703dba7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\configuration.h</file>
@@ -2653,11 +2653,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>39795c8dded505f24f53646ecd8192251851c74f366d2a5b0aae3fbfa68c191b</hash>
+         <hash>c95eb0d549ff1c20edebfec41d73584b5a20d21df20a724084200954b9e8d252</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\fuses.h</file>
-         <hash>f086b71daf51a33001db20a7efbb9b9e08b3ec1230ae287c5ac9ed219309d6b2</hash>
+         <hash>b8cffb757f808b93220a4770cfe28a7fd278f6f0ce0deea23e3c7776273b4be4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\user.h</file>
@@ -2665,15 +2665,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\adc.h</file>
-         <hash>aa3753eae4e52082cd8be6bbed0dbbb23554fbb46d1396d0192b0a1dc7f0b7d5</hash>
+         <hash>cf8c18a960c51b0a507d2d9a2d6a5098df2b26261cdd99b7c6efaa27b19275d4</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\opamp.h</file>
-         <hash>0c77fa69539b61aaaac0eaf23a4ab26d28e5d48cf0eed0e65638b11d33e34fa5</hash>
+         <hash>ff9bfa265bdc19e3e8eb4d7f5ce52b81eec00f66f02cce60a70c3588b01c8e86</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>e735517f308fad5dd77d03b6858c16bdbc937bb9d0754735849fc7799ebe2b59</hash>
+         <hash>21fe8dd565f9610e1ff4a6bf7bebbd16842af13d3d2294f1dc67ad279fb01d22</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm23.h</file>
@@ -2685,7 +2685,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\port\plib_port.h</file>
-         <hash>d2a389c0d4202a2f53168fd71db2fff5822a27af428154a4b051107b0b78b7d6</hash>
+         <hash>c82ca5cb02fcaf7bb90be44852ad9ddf39fc6f59ea203a931f3bc3ea3a6616bf</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\clock\plib_clock.h</file>
@@ -2693,7 +2693,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\clock\plib_clock.c</file>
-         <hash>5da2a1c746aa97f7541805de409d9e183731b3e07d78baa119ca3cffc38c1892</hash>
+         <hash>7b147be39bd22da003c4f7be9eaae85bc05cca9237bf2e70e6a8dadba9626d25</hash>
       </entry>
       <entry>
          <file>..\src\app.c</file>
@@ -2701,35 +2701,35 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tc0.h</file>
-         <hash>b9f3d136cde138dee78bd2a3b514b457252963b20fdc1bc2dc1b9d4e13de2860</hash>
+         <hash>d25fa296ef56ea38d4463228afa4b34063e5bb85fccb64fa5ade6f7e61d5b203</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\dac.h</file>
-         <hash>49a8dc50ca2053fe03c05e61b7ad0c81f7ea0dccb8713bbb0047b7b226eeb9f2</hash>
+         <hash>a3acbad22b45596633ee1ce2ce7ca4bf460fc44e4fa0365fb329920631ab12b2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>3fafd21399ef619a55b2f8112750d750685c8ae1cb458363d21ee37a105ac6e7</hash>
+         <hash>783d9a41c90817eec55d9317475cc2663a785fc9a955c06d3207fcee6e0ec080</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\i2s.h</file>
-         <hash>a63acbe4c1e78742adbdd430f6e2502bdf0f0d4089b4a32b8886feb8e55155ce</hash>
+         <hash>bfe7224e27622f43bf8d9ea923e0a65667236dccf7eddff315b8312bdd40df10</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\oscctrl.h</file>
-         <hash>80df629a840d0cd86f3576d79711ae1833ebf11004b61dfe954978d78dbfedb2</hash>
+         <hash>fcf051b4d7aa3485ff7ebc290f273cf178893f4522924c5cc7e5aecac6f04694</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\evsys.h</file>
-         <hash>7169344fd83ee7d792e099308fb9ffb88370e950c5edc30ef25a6a764f948909</hash>
+         <hash>305384b409b34b29e75bcc489508f1f966d597a59b618ed9292595da7bb4d87a</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\freqm.h</file>
-         <hash>84db0cccdaabfa107c4b4365e5db683f10cf3f4ff49d0f81adb288f3b7cfec23</hash>
+         <hash>4de32bdac35ce0b09e08aa8532a612cb9663d5ceb50b9c6d14b47c04ae3e5b85</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom1.h</file>
-         <hash>4c4af28534994eb8622823af07ac2ec2160db61235e1aae4313049a4a0c7443f</hash>
+         <hash>d591b5b3cf52156d42cd119071e198b38e7794d05d1f1a02e9bbfd149b0ed94a</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -2737,15 +2737,15 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>b7a81501c3f4ff9537df5c9a5e0231f37638cdc8324965ae10064128fded840f</hash>
+         <hash>c8d9b7a52d092f37b4c3b821806bd6e8a30dbcc600960f9aed2b2f10f965c09f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\wdt.h</file>
-         <hash>0aba0d5d8e0baed4cec2e57999cedb1326f4756945189340b06724208a38bb2f</hash>
+         <hash>0ae61a782b9385e64f7cde2a4a014268073dd26bae5edbd21ca2e71e68e12fa3</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom5.h</file>
-         <hash>d45e5dd019a2adb9da586eed23d20e5cb8dbc809eec8f93d26e1a73eb4676306</hash>
+         <hash>87108bfd46c97e49924d27111dbdfedea6f4691c36c22d1abce5602aafb9c67c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\int\src\sys_int.c</file>
@@ -2753,15 +2753,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\port.h</file>
-         <hash>e0af5983094c157a1508af4523dbe26c6180f5244d1b8d788d9fb3beffd26259</hash>
+         <hash>ee7e808144e3e364b12878b5602367d2355f341a2c1798bb3e5c000575681a0c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tcc0.h</file>
-         <hash>aa3c52cc5c77c16a840b7fc4570e337dade60a63f80585eb8b1c2173b7af89c1</hash>
+         <hash>1e47500318c2a7686af161cdfba962806347806f0a34f69e49dd01c122e6f590</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\pio\pic32cm5164le00100.h</file>
-         <hash>f98d3d87d11f809b1ecd55274cca5adecb3ccd4587b1bd33494e279e8af14a2a</hash>
+         <hash>7898d3910a58bae3f81e70d5f297655ccf66a80890b6cc030bb4c8de5df15298</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
@@ -2773,15 +2773,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\exceptions.c</file>
-         <hash>8373b825c302768f52e3568c20241f4eb49c1fbb3614139e8e65ba694066141e</hash>
+         <hash>cc07b84902bf881b410bee8cd4463b438ad2997c8fd8d3f308a16d926f75d601</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\supc.h</file>
-         <hash>c89b2d945cff9fc15a1948edf77afe73b7f1e2e93c2ee12a8c35ca2a3a997596</hash>
+         <hash>6f9171cc97613968f9a1b9d8276ce283df1e034caa0e8da83dc45bdc457298ac</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\rstc.h</file>
-         <hash>dc7a3458e10fad06d75c14dc5532df4e8d9e634af0a5f0ad5c8bee27f5dfe7e5</hash>
+         <hash>eb60fed8119481089c3df47bfe55f677615bdb4c114330261145465698f04e49</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\bsp\bsp.c</file>
@@ -2789,7 +2789,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\i2s.h</file>
-         <hash>cba72c6157a08441445dacc9d6b432b33bf16eed13b96ce137c5839ffafb2731</hash>
+         <hash>a23f5cd2510c0e05ae9cdd16946152618eae430ca3748e93af69b8da583bef53</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -2797,11 +2797,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>39d58a203f1b67fdb1099293914a2af9722d223586cfc5ff06e230e047919dea</hash>
+         <hash>ff7a2139380ad0e2695bbc0d068db7a3b7e54ec41387b4c77acbe1aaa2921b7c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\dmac.h</file>
-         <hash>33637049b074f412149cd4f09ce1b20144ab2383c874df4431140f4a534ce9fb</hash>
+         <hash>c343ce66534f101beb6a55ce11a0ff36e1ad3cc07be78f484158c4abff2666c4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\bsp\bsp.h</file>
@@ -2809,11 +2809,11 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\dsu.h</file>
-         <hash>e4cdb0e98844e3a91f26e9d55d6c4295aafae584074c31d6e79ecff72aa64b7f</hash>
+         <hash>e5b5f5d660dfacfbd4b8ac8052eafd345b7e2784a717d18b4347cc69d5ccd125</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23_NTZ\non_secure\port.c</file>
-         <hash>7cc5c13309c30e267d91a5e556c07228c3e5a898a0cc92a3cce5ed2c2335eb1f</hash>
+         <hash>be4323d6b09a7b3314b33bc4a0380001eeca27f32b31f5e6ede97ba946666fe6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\driver\driver_common.h</file>
@@ -2821,15 +2821,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\usb.h</file>
-         <hash>7444ff37acc5a32e3898bbcd1337da1ffc97b7853b98cf95a36ab36d19e82037</hash>
+         <hash>5c8b51341e0fc83ab83c08b06e6df99604eaa91ce9e10722d8b6d21a31ddf5aa</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\evsys\plib_evsys.c</file>
-         <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
+         <hash>b2e1a8004049e687fc5544133f3346f743ced50cdaf860c8e3c7f58df3cc163f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\eic.h</file>
-         <hash>fbc333f114108db067509bf474bab0a2c88d17bcddefd3321acc24bd8d75267a</hash>
+         <hash>04b920bcc12924163aac77d85c4230731f0fc4bdbfccda44ef549b0a206275f2</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\evsys\plib_evsys.h</file>
@@ -2837,11 +2837,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\PIC32CM5164LE00100.ld</file>
-         <hash>769c90e8f619ff570030ed22eefa3d18e34f1042ca924a9005b357cae355e933</hash>
+         <hash>7b80d8732a20c41279819c6c3216c5466bf3dd91703073854c4ea8a17ca5edec</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\tram.h</file>
-         <hash>a1c9c50856aba205ac42e488fb2d880a91848c56d52ce7325c920736fd179cfc</hash>
+         <hash>7fe68e6d2bfac66858dfb1de1f2173b79da88e8ec448ea44439ab4bced12dcbb</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -2849,31 +2849,31 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\gclk.h</file>
-         <hash>746d19212ec68d2063791e7d3532da0b1c45ddfd5c81745dc68b1b9da566b7db</hash>
+         <hash>426cdd8e80960385c47935d3d8394d589d124b2f843a9bf74a0fafe818522135</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>382f8a7a0e00240fb69911dff8d8515248beb9dadfe77c22c4e5544f49cc76eb</hash>
+         <hash>1947473678873963f3193497280d907f59a5936f92df6395327f7ca684cb1aa6</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\pic32cm5164le00100.h</file>
-         <hash>d2f82c201938bca7484b2ba19781d2425c639cad7c26c5ecc31a95843658baea</hash>
+         <hash>ea2503ea5645ca32715e37779ea75f53ceb496af1329f282feb66e7f42a95a39</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\dsu.h</file>
-         <hash>ed42b4e43e2fec45c6d3f3bca57457b2d1560aae6ed61d33f5940c7989190ea7</hash>
+         <hash>6852049d2d6081cc9aec50fb9ccfa06cc472260495d3308f2470072d330ee7ac</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\oscctrl.h</file>
-         <hash>db431288ad286cae13e1e03eba8b193cdd7d4b67a519d611d6444508433e3631</hash>
+         <hash>199d8bc9ae9790538f86b2313a1ea037dfa040449ad8f080967652b4a59b2d67</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\startup_xc32.c</file>
-         <hash>be2c779688c247443de3423ff9ffd8079d8e5afd090c46997829e1cf1d57c73f</hash>
+         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\rtc.h</file>
-         <hash>8d4a7239e02b9e65ed4b50dd32d86e4b3a89318a79782a702a38a56d2a069c9b</hash>
+         <hash>09cc909d6f6297b8737649d3602328400766f3f4c9cf3efa3831ad607163eaed</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\system.h</file>
@@ -2881,23 +2881,23 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom0.h</file>
-         <hash>edb77f4c9f0c9c447ab21f1bad4bfa7c67efdf4c2dcd9053e89db83a8f4d36ba</hash>
+         <hash>122587992efacb43312cee202183401754c59ebdf8a616555ca534da7ea67f62</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\tc.h</file>
-         <hash>93ac7b2e2afe9547432c7dde6c635e3429aa0d570c9036831a34446a0de7ee07</hash>
+         <hash>f5205e3f07397633673ce89f60ce8b495bcdf936271a345552f8838d284b0d91</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\initialization.c</file>
-         <hash>ad12d179ed2c86c0bdb50d4f2415beefe8e71fb80fbc655e824d642eaee0c941</hash>
+         <hash>50ddf639e8d90c5c5762157e18edf7436a92d4a1a06ad745ac085553f2a0a5c2</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\nvmctrl.h</file>
-         <hash>d8b3c62d889600886f6180fc98ffab1133d4798628bc10f63de1701feec5dcc8</hash>
+         <hash>4ac4f894a5e6c8707bd231572665c802827bff4e882ce633388cce7c82f7c0c1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom4.h</file>
-         <hash>0bfd918a2be8e0de9c5b793f8f137c97786b342f3e542e19395197d3e89357a4</hash>
+         <hash>5e9f9bb55cf415a972fa41e5b531bb8d06ebf32006a9cf1f6fbd32a059e6a2e5</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\pm\plib_pm.h</file>
@@ -2905,15 +2905,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\nvic\plib_nvic.c</file>
-         <hash>126c7d62a04c17ec86498bf4e127345e3d5fd8a96ac0771610d13aa475215805</hash>
+         <hash>052020b67e48b9393660b3916d2ce3a3c32c2106d9ef472f9e2144cac304aa07</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tcc3.h</file>
-         <hash>9b8b594faa751653dc041c9506cb66cfac611736451bc1eab8ccbcac03eb7ebc</hash>
+         <hash>5ca83644a534093e4ebc66205c307a9432381fddd4ab823bd1e1e067a055047d</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\opamp.h</file>
-         <hash>148990cf3fb47dbf653811ea87a315512ea69fe92ed4bfff53ee4d1f935671a4</hash>
+         <hash>abced882f273336588f2d5280b54f246ba968a7511474e9f669919a82069c404</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\nvic\plib_nvic.h</file>
@@ -2921,15 +2921,15 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\ac.h</file>
-         <hash>c4e39c429eba458ac58da8cac493d300f49c7c541eb2b573a8469c80dc34b37e</hash>
+         <hash>a126f8b279f4f983aa722716f0dd43139633b94231f933e6f64a841ca92a7c5e</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>b9b2ff28a0c80fa21443690bb28de64c8b9451cccd57e484de0bcf02fc367575</hash>
+         <hash>6bc571df5182f06bcafe5280fdf762bbba2bf1dbb7867ae3721ce2d7e3e51dae</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>cfd11f78d92b398e8347f2b55dc1e79dffce83f63f7e570c6fc821334681ad12</hash>
+         <hash>2bf5b5f5d83684c1e6d90e5bd17da9de41d38ed61ec0410f94595ff343f89174</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\tasks.c</file>
@@ -2937,7 +2937,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\osc32kctrl.h</file>
-         <hash>f5ae5634c9b519489c698bfe8196a9bf9a8650e1d0b5f590b80e8e0ed681836e</hash>
+         <hash>64381e83ba1e5aef21e9abe7aa6ef3ff092b1f57060a0f8cbb532d4ccde2b657</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\dma\sys_dma_mapping.h</file>
@@ -2945,15 +2945,15 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>8cb1eabe18f130b2b8980e880847f773fb12a4071c763d26c51624223b32a3a4</hash>
+         <hash>f97f4e54a7511e5aea34f583061c628bf718b1024af6ec4cff55cb50365305da</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\pm\plib_pm.c</file>
-         <hash>cb1666321efb75037929491e94c220e9ebe1a8f9bd3d4b97001aff6917a3427a</hash>
+         <hash>298850e9d54d237f93b16abca226d64f1db961004ab900ba052fb3cba31af461</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>a72063c3977fad098a87a5430e04e9fc5b892d703e01fbe09ea907f67aacf20e</hash>
+         <hash>82542c835466f2abd0eeb2988a0bcecf3d6a14c9dd87ad4a7ca325b15afbce95</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
@@ -2969,7 +2969,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\wdt.h</file>
-         <hash>9af47eb4634c2de5b7a8f8460c1f8fec804ac80a117fb29d73f2f7a8f18fe9f4</hash>
+         <hash>de87896d4a05a1de8c7f298d47d5864deb27d044e1e189df2e96dc3009ffbc00</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\dma\sys_dma.h</file>
@@ -2977,7 +2977,7 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\osc32kctrl.h</file>
-         <hash>d0198fb19ba3a133fe46fc3f3c9ea091b266daf68b9ed8e8658d89232d6eed09</hash>
+         <hash>c162a8cf42b000b8e849b84a8118bbf070f1d1c07d0f184784a126fc2090a19f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\dma\sys_dma.c</file>
@@ -2993,43 +2993,43 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\usb.h</file>
-         <hash>a5ce1b56f61ec6e7baf036c55ec6a70fc4114031bf758a2d0686739f06d44f50</hash>
+         <hash>bdf9965009982164cd907690b204c747c798d4ec7b20e677fb0a571459ec0759</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\trng.h</file>
-         <hash>79fe19979f2d4ff0304d99f2807bd9064c373ee48bc82ace092dbb5003b59f62</hash>
+         <hash>c0070cca351d8cc9a79aa6834db9bc5c06e43b1d2624d3caca58c2a36d926b82</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>e41748d345e615b3d553a949338806893feaabbd1ab392899b58e562366d7a0c</hash>
+         <hash>3829d2658cccf7ab965609163f7b829c0fb727269948c92d476cb9cdd10408c2</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\ptc.h</file>
-         <hash>169fd3865a5ffc77126ebe4c7f68cb79cfe8ca0b5327f020188fc12feea85d4c</hash>
+         <hash>ce3603a9ffb4e215708c90b345fd7101129594d566a3940fe3a9271a41c6aa81</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\nvmctrl\plib_nvmctrl.h</file>
-         <hash>5a4751032a79ea65bc938545ce93d7481fdd33a9ee83544dadcd7b3fec717a3f</hash>
+         <hash>6e64762d47807827993dafd75bc677080e436c23c7cfb1106a52417d27eb0425</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\eic.h</file>
-         <hash>b0e66cc6c14164b03a82516188bb6e305c71659ba5af41a387312b675b2ec355</hash>
+         <hash>ff7a902a70aef8f709a8b38f7ee1cf57ce0c6b9f98f55d1553f492d5324e224c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\pac.h</file>
-         <hash>94c1a67ac3711f46bce1e0e50c414fc29949cea94c1da16ec2a3188a3ca244fa</hash>
+         <hash>2c5ed40bf2337d481152e628f62fad3cf62104c7dbde55130af6b9de208bfd17</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>6d8eb84e5171bce4d5cde80abc575ebd7d81ac007b7733f34d5032bac93f1748</hash>
+         <hash>d03a08079e678cc6e6a1e2105684ab0082d190bbb731f6807d75e1aca260e98f</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23_NTZ\non_secure\portasm.h</file>
-         <hash>7ee439ef98cd2cfe7ebef68d6a9dec0d9b38fa73daa7c60a71958167d578e811</hash>
+         <hash>44a9958d91bef57adf9e47d35de0445b7b30b209d34b803b1e89dc3e0a981012</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\pm.h</file>
-         <hash>465df1e2abdc5d6fd52f26c913fe174309c24cc7426aec7fdc365085d5b30508</hash>
+         <hash>d1bf609f39c733080deaa59f87e5b7585af40f86c9f34d83e4bda4ca542def8b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\int\sys_int.h</file>
@@ -3037,11 +3037,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\FreeRTOSConfig.h</file>
-         <hash>0b3dadd79815867b38947c46d136b944f129a29b869262f44ea0fab32b880acb</hash>
+         <hash>0e2861c7fc5d52efc1b5fbc7543bd623ba67fced3db6897b343479368d0cb73b</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23_NTZ\non_secure\portasm.c</file>
-         <hash>4f34f3f890dfef10f50acdc2772d043320f3a540406416e587cfcdc3cbcbe918</hash>
+         <hash>dcb0d24a93224ec0131d6d66c69d1c03df8e2126d294aeb5d109d9e52edce129</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
@@ -3049,75 +3049,75 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>7d1d30b6c9ae34bebb26b14402f78a59a35ae826f460a1ad28534c9590b32151</hash>
+         <hash>06b5b66a9b98ad4998c82d353c0108b9db1a846951b8865cbdeeef90c5bbe2fe</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tc2.h</file>
-         <hash>00354e9088cc760b6ef9596df42044b4e7d044486077d6ee032172c514992023</hash>
+         <hash>305b437c92523db39735a4c2f99d5ce8ae918d12b291f3eb8c2cffcace0a4533</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\port\plib_port.c</file>
-         <hash>60a3449decdfc361dada30aeaadb3ba5cb0966579dd5c52a89194814d6d176f7</hash>
+         <hash>695f6cbd89a8fda661e7206140c9f7a31b58dc1cf1ac5d08e73b9a079d4fd2c1</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\ac.h</file>
-         <hash>76831311e708af82301d723d33f0159130ebb34edb20ecb483120d863ea049e5</hash>
+         <hash>0d1eb834d15a1718a2d77b91b5a4bd07d05c186fc6d28b859a5bddefb0db0e72</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>3ec013593edf39000df359408205a1f012fba3df3b88ce90f09c5115522d81cb</hash>
+         <hash>3feca67a173d19d45961676a16f6153a6d849ecac98e906b62a343258c8bf43b</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\sercom.h</file>
-         <hash>e1d334acb72c82431c52e83aa8ad8865d7b5cc75fc052d06f626d4381f306b1a</hash>
+         <hash>514710481d3b1ac562b75e17eb7e57eba83633fa8c4ef6b43e546ed5131a19fe</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\nvmctrl.h</file>
-         <hash>d1caf1ebc877ddd41c6f6da82b1eace1faad388bb0c03e837c35a8abb10e7c95</hash>
+         <hash>b77948c92900397b3fe932d96b684327d0125091f3d31dc3dcf7e721cb23205b</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\ccl.h</file>
-         <hash>9c0e0bd02fbdfa81d6c80f1771bf65d057deedb4ed9969c8ef17489f794a3f0f</hash>
+         <hash>d7aebb58abf2a8fa3c9fdeed938fc8e707e682c50e87c808497ea8a587a5157a</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tram.h</file>
-         <hash>bd9744feb764d0808b76c526fcf2cf442472a7733fd79352d52623a4e8a6bbfb</hash>
+         <hash>3c74da9703c35974ed237d89a9d0699df5cc945c1a629ea5c3bc6c834d5f06ed</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\toolchain_specifics.h</file>
-         <hash>9f3878bd7d87f09a39ebfe64a5df7d420b4a347f73303f442443a3afc9b9f43a</hash>
+         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\freqm.h</file>
-         <hash>0a404ab5a6e4dfc10e32457976d14a975d1ea75c9ebe6d612cb051343c401ac7</hash>
+         <hash>cd84429be7f98eab27761160a7a81bda16d8cf5698d6bf618c410661cd97df06</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\freertos_hooks.c</file>
-         <hash>9ad70cf61f23e435987222ef070cf0b4b099d56f1e8b13fcf9d69723c064bd16</hash>
+         <hash>1c31f7febed38afbcb09d11b002c5dddda98c7ed7aba9ff8f8e32b8c5f288a47</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\gclk.h</file>
-         <hash>15991ff6e488b8a7fb3a76aa7dcb3678653d680d7d5ace4e97f01ec6f4a2ec4d</hash>
+         <hash>88fee92c10a0db3240b539df05735fee705320c6ae9b5a81a7deacfaf50c0fa8</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>399814721d9735e91d74ca07be3974edb20639acb46a6792230ff9f61f67b353</hash>
+         <hash>292c78c91dbf63a6aa028f381b1dd548d549949f4fb9fcfd97f949569e013d76</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\evsys.h</file>
-         <hash>b875044a9d121d30d8f319169324ab7e6b8ec5e15b58536e0c9c9599252d2fac</hash>
+         <hash>7ac93e57e163ca039a81a0964182206491d953678b6174b4e544026d59ef9150</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>504a77558f13b66fd1eec5adf4d81e274f0b54c12880424833c24f577be0800a</hash>
+         <hash>0f5a90e8303d9aa2a9c897d6b90da50df21776c6bde7bf8c792cacffa3048c8d</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\mclk.h</file>
-         <hash>b26622476fd5cdd0e8ee87349fa5622f53a6b9493131f8e26a2e1a486b422c04</hash>
+         <hash>7fb2c66b45b0a359efe55063ddf18ca45f4005b42419fb3774c8c30d472520cc</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\sercom3.h</file>
-         <hash>34c4aeac90e57d266bf1646d66247a954ac1a3535f9985922e975b2dc4ca9b8d</hash>
+         <hash>95a5c48dd89d57a75c528db7f5e6a36da93eb53fc957a9d4725def78074fef60</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\driver\usart\drv_usart_definitions.h</file>
@@ -3125,19 +3125,23 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tcc2.h</file>
-         <hash>a9191f4b7424b0389b4e748a8dc6ee915f84104970f12d7e938aabd5c5fedca1</hash>
+         <hash>632f4cfe79bb6149e25ee01d5e641ada99f2ec95d1d3319799170a5125a09224</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\sercom\usart\plib_sercom3_usart.h</file>
-         <hash>cd2de08185fa951f1804951708ca2aef811525d3d884d08073f1b32a1f2d80a3</hash>
+         <hash>13c295e42aec8b53666ffd5fe85d5d5b47f9a75b94c1b1ca466d53e7b47942d2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>3b9cbd64db721c4317544700fff4e42ac68d989f71b7d610b31087bb19175839</hash>
+         <hash>a73c0b319370116d5981d5dacbabad3a775f85ae540ef70b4ced1c99c9ac6cd5</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\pin_configurations.csv</file>
+         <hash>419d7d14199d415529846ba9ee8bf30d8dda31534f7211a87c5dbcde8c4bd9e2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>06a153c1ce111213af32dfc8797bd2e5c7819e264dfa338b4049f058dc1edb11</hash>
+         <hash>4452e3b0e6446b74c7d010d308072ba0a35c1f92bcf3882a54bf3796a72517aa</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\definitions.h</file>
@@ -3145,7 +3149,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\system\debug\sys_debug.h</file>
-         <hash>c17a266d85e3ed1dd692a96184193c0ebfea1099f6698ca073f82418d92d8b53</hash>
+         <hash>222cdc284bd651e83188b9641cc57c133cf86563dbeb5d5523766d4a36087165</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h</file>
@@ -3153,7 +3157,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>c1fc47acdb79efb0fb8a0fb8a169ae4423fdc3a6d820b2f81d49e8e077c1ed48</hash>
+         <hash>0f7a750669b24c41af51482eb76c867a1ed11c14dd4877d07433db3953d9a792</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\driver\usart\src\drv_usart_local.h</file>
@@ -3161,7 +3165,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\osal\osal_definitions.h</file>
@@ -3169,23 +3173,23 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\ccl.h</file>
-         <hash>bbd32f62e41fefd9be0a14d8d093902619374531c4a8e68f65df7278f362f3f3</hash>
+         <hash>da41fdc9834588934be52c69b1e9180c20eea87bc110b94d956c9b376f292b9f</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23_NTZ\non_secure\portmacro.h</file>
-         <hash>f797d5e2f4adf328337df55b968b86fefb8f1b98aa7410c206b796a5ed6ec6a2</hash>
+         <hash>6ae298bc6b6acb8bebab85995d029c1ae08b619c32a48cc4a70db5fe21303155</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\rtc.h</file>
-         <hash>1b037d0282086c47cc218daa8167f6010439c84f9c8b7b94ceebfac0ee68ebd1</hash>
+         <hash>ae4d623b56cbf16cb76e11e17df40ee081cd800bca4c4750041d483eaf5bfc1c</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\fuses.h</file>
-         <hash>db010c6145ceb95d41b687f5fa06d0e40df7b50cdb49b9edcc46fd8895991b4c</hash>
+         <hash>34f5b2ae162efffa56e64570b0cf3f1abd640d6d1739adecaa866844da3752e8</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\peripheral\sercom\usart\plib_sercom3_usart.c</file>
-         <hash>65b5492c3cf05b541b1d121326290451d252bae2ed4aacf29d99e009628c94ed</hash>
+         <hash>32153d6a6d259f5130472a9884a054ec713d41b6c8948acde3c19bec3a549ab3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\interrupts.h</file>
@@ -3193,47 +3197,47 @@
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\tcc.h</file>
-         <hash>12c6417dc87f4ad0cedbf75040b22044b40a3530b9c3a492193ed5aa879dd8f9</hash>
+         <hash>c46e5b8181a5545e047d2d2f3e80560e9fbcce89095336bc7d5b52ac3cb65a13</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\pm.h</file>
-         <hash>b55fc94e9f3afb0e741f2bbf1bd92eb4fcdc5565020042bee012b18b69f37ec5</hash>
+         <hash>c5f50a166071f9000c189db449703acd1efd87ec6932be143e7d31032dd67414</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\pac.h</file>
-         <hash>06cca8b76a524296352a4482bf6396e3a8476e2121a565f4bd6c3982c463a406</hash>
+         <hash>92618bcb26538696df709861373e572faf65fecd29e2c1f6727649c145781236</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\rstc.h</file>
-         <hash>944452ea785bf8fe14168c23b93c083d7adf57748b61a2bd9546a4e00bfc6f34</hash>
+         <hash>f92fb939201bbe1bfa1152f7ec1778f14a91fa1cd146c94d177a4a2bc0646a85</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\libc_syscalls.c</file>
-         <hash>ff03e955db4f7bb775c7989bc2254553698f3d921e9885caac347ccd118e55d7</hash>
+         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\dmac.h</file>
-         <hash>51608ccdc734a83c9e71ccaa1dce6ea794786c217132dde3608d68a8c774d94e</hash>
+         <hash>f2ba215901929a81e7b0a9a9fa22185d215051ae51b324b55e4db9a12b06f427</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\component\ptc.h</file>
-         <hash>0ba5874977a74b906f12d3364cc6d4b234d8249029fd089d741c57ecf0dcdddc</hash>
+         <hash>1d7a54532d2f86fbcda037783040b9c07ba677ff8e7ca3584eeef6d9ccc05ffd</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cm_le00_curiosity_pro_freertos\interrupts.c</file>
-         <hash>28163260556199e530c937f972a44078385284ecfe909f2bb85b0bfa3daab8ca</hash>
+         <hash>3510e90255b85f55041c5765e58e934b3d923bdcb61beaaffd3508a23810e705</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>4376714fecad0f72dc4c8b45236591a7e0ffe24dd018382f56e8b0dfc2230b28</hash>
+         <hash>a62731cd211dd9caf70958b229d4a3a607ef12e6fbfec573a0d089f21c45f34f</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\tc1.h</file>
-         <hash>66433eff4c84fcb3f8d3dd01f5490228072b37ddfc497ed151a1815e7af324cb</hash>
+         <hash>49e9aafa297335630fe0318561a7fa2b60ed4a8c8cfb80a32488553e66375ec6</hash>
       </entry>
       <entry>
          <file>..\src\packs\PIC32CM5164LE00100_DFP\instance\dac.h</file>
-         <hash>3cfef00a8156a5963eccbb3b8d5e5021b3c35cb2b6280686a837c4baaf55dbcf</hash>
+         <hash>2a022d7f2b2adf53eda42aaa7304b39e1dc53a9da778af673466e21678ea07e0</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
