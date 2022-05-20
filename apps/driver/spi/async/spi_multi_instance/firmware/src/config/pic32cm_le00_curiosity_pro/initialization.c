@@ -54,6 +54,7 @@
 // Section: Configuration Bits
 // ****************************************************************************
 // ****************************************************************************
+#pragma config NVMCTRL_SULCK = 0x7
 #pragma config NVMCTRL_NSULCK = 0x6
 #pragma config BOD33USERLEVEL = 0x6
 #pragma config BOD33_DIS = CLEAR
@@ -66,6 +67,11 @@
 #pragma config WDT_EWOFFSET = 0xb
 #pragma config WDT_WEN = CLEAR
 #pragma config BOD33_HYST = CLEAR
+#pragma config BOOTROM_BOOTPROT = 0x0
+#pragma config BOOTROM_CRCKEY_0 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_1 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_2 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_3 = 0xffffffff
 
 
 
@@ -99,7 +105,7 @@ const DRV_SPI_PLIB_INTERFACE drvSPI0PlibAPI = {
     .callbackRegister = (DRV_SPI_PLIB_CALLBACK_REGISTER)SERCOM3_SPI_CallbackRegister,
 };
 
-const uint32_t drvSPI0remapDataBits[]= { 0x0, 0x1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF };
+const uint32_t drvSPI0remapDataBits[]= { 0x0, 0x1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF };
 const uint32_t drvSPI0remapClockPolarity[] = { 0x0, 0x20000000 };
 const uint32_t drvSPI0remapClockPhase[] = { 0x10000000, 0x0 };
 
@@ -113,9 +119,9 @@ const DRV_SPI_INTERRUPT_SOURCES drvSPI0InterruptSources =
     .intSources.multi.spiTxCompleteInt   = SERCOM3_1_IRQn,
     .intSources.multi.spiRxInt           = SERCOM3_2_IRQn,
     /* DMA Tx interrupt line */
-    .intSources.multi.dmaTxChannelInt      = DMAC_0_IRQn,
+    .intSources.multi.dmaTxChannelInt      = DMAC_2_IRQn,
     /* DMA Rx interrupt line */
-    .intSources.multi.dmaRxChannelInt      = DMAC_1_IRQn,
+    .intSources.multi.dmaRxChannelInt      = DMAC_3_IRQn,
 };
 
 /* SPI Driver Initialization Data */
@@ -183,7 +189,7 @@ const DRV_SPI_PLIB_INTERFACE drvSPI1PlibAPI = {
     .callbackRegister = (DRV_SPI_PLIB_CALLBACK_REGISTER)SERCOM4_SPI_CallbackRegister,
 };
 
-const uint32_t drvSPI1remapDataBits[]= { 0x0, 0x1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF };
+const uint32_t drvSPI1remapDataBits[]= { 0x0, 0x1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF };
 const uint32_t drvSPI1remapClockPolarity[] = { 0x0, 0x20000000 };
 const uint32_t drvSPI1remapClockPhase[] = { 0x10000000, 0x0 };
 
@@ -197,9 +203,9 @@ const DRV_SPI_INTERRUPT_SOURCES drvSPI1InterruptSources =
     .intSources.multi.spiTxCompleteInt   = SERCOM4_1_IRQn,
     .intSources.multi.spiRxInt           = SERCOM4_2_IRQn,
     /* DMA Tx interrupt line */
-    .intSources.multi.dmaTxChannelInt      = DMAC_2_IRQn,
+    .intSources.multi.dmaTxChannelInt      = DMAC_0_IRQn,
     /* DMA Rx interrupt line */
-    .intSources.multi.dmaRxChannelInt      = DMAC_3_IRQn,
+    .intSources.multi.dmaRxChannelInt      = DMAC_1_IRQn,
 };
 
 /* SPI Driver Initialization Data */
