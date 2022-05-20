@@ -56,14 +56,14 @@
 // Section: File Scope Variables
 // *****************************************************************************
 // *****************************************************************************
-static CACHE_ALIGN uint8_t gDrvSDSPICmdResponseBuffer [DRV_SDSPI_INSTANCES_NUMBER][CACHE_LINE_SIZE] ;
-static CACHE_ALIGN uint8_t gDrvSDSPIClkPulseData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_LINE_SIZE];
-static CACHE_ALIGN uint8_t gDrvSDSPICsdData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_LINE_SIZE];
-static CACHE_ALIGN uint8_t gDrvSDSPICidData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_LINE_SIZE];
-static CACHE_ALIGN uint8_t gDrvSDSPITempCidData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_LINE_SIZE];
+static CACHE_ALIGN uint8_t gDrvSDSPICmdResponseBuffer [DRV_SDSPI_INSTANCES_NUMBER][CACHE_ALIGNED_SIZE_GET(16)] ;
+static CACHE_ALIGN uint8_t gDrvSDSPIClkPulseData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_ALIGNED_SIZE_GET(10)];
+static CACHE_ALIGN uint8_t gDrvSDSPICsdData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_ALIGNED_SIZE_GET(20)];
+static CACHE_ALIGN uint8_t gDrvSDSPICidData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_ALIGNED_SIZE_GET(20)];
+static CACHE_ALIGN uint8_t gDrvSDSPITempCidData [DRV_SDSPI_INSTANCES_NUMBER][CACHE_ALIGNED_SIZE_GET(20)];
 
 /* Dummy data transmitted by TX DMA, common to all driver instances. */
-static CACHE_ALIGN uint8_t  txCommonDummyData[CACHE_LINE_SIZE];
+static CACHE_ALIGN uint8_t  txCommonDummyData[CACHE_ALIGNED_SIZE_GET(4)];
 
 static DRV_SDSPI_OBJ gDrvSDSPIObj[DRV_SDSPI_INSTANCES_NUMBER];
 
