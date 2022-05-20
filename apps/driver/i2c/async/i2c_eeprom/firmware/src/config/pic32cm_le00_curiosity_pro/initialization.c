@@ -54,6 +54,7 @@
 // Section: Configuration Bits
 // ****************************************************************************
 // ****************************************************************************
+#pragma config NVMCTRL_SULCK = 0x7
 #pragma config NVMCTRL_NSULCK = 0x6
 #pragma config BOD33USERLEVEL = 0x6
 #pragma config BOD33_DIS = CLEAR
@@ -66,6 +67,11 @@
 #pragma config WDT_EWOFFSET = 0xb
 #pragma config WDT_WEN = CLEAR
 #pragma config BOD33_HYST = CLEAR
+#pragma config BOOTROM_BOOTPROT = 0x0
+#pragma config BOOTROM_CRCKEY_0 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_1 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_2 = 0xffffffff
+#pragma config BOOTROM_CRCKEY_3 = 0xffffffff
 
 
 
@@ -95,6 +101,9 @@ const DRV_I2C_PLIB_INTERFACE drvI2C0PLibAPI = {
 
     /* I2C PLib Transfer Write Read Add function */
     .writeRead = (DRV_I2C_PLIB_WRITE_READ)SERCOM1_I2C_WriteRead,
+
+    /*I2C PLib Tranfer Abort function */
+    .transferAbort = (DRV_I2C_PLIB_TRANSFER_ABORT)SERCOM1_I2C_TransferAbort,
 
     /* I2C PLib Transfer Status function */
     .errorGet = (DRV_I2C_PLIB_ERROR_GET)SERCOM1_I2C_ErrorGet,
