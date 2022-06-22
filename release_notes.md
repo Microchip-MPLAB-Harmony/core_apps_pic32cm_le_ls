@@ -8,6 +8,32 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.3.0
+
+### Development kit and demo application support
+
+Following table provides number of peripheral library examples available for different development kits.
+
+| Development Kits  | MPLAB X applications |
+|:-----------------:|:-------------------:|
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 9 |
+| [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/developmenttools/ProductDetails/) | 2 |
+
+### New Features
+
+- None
+
+### Known Issues
+
+- None
+
+### Development Tools
+
+- [MPLAB® X IDE v6.00](https://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® X IDE plug-ins:
+  - MPLAB® Code Configurator (MCC) v5.1.9
+- [MPLAB® XC32 C/C++ Compiler v4.10](https://www.microchip.com/mplab/compilers)
+
 ## Harmony 3 driver and system service application examples for PIC32CM LE/LS family v3.2.1
 
 - Updated applications to remove unsupported fuse for PIC32CM LE devices
