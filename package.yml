@@ -1,12 +1,18 @@
 package:
   format-version: "1.0.0"
   name: "core_apps_pic32cm_le_ls"
-  version: "v3.3.0"
+  version: "dev"
   type: "application"
   status: "production"
   required: false
 
   dependencies:
+    - name: "csp"
+      type: "package"
+      version: "dev"
+    - name: "dev_packs"
+      type: "package"
+      version: "dev"
     - name: "core"
       type: "package"
-      version: "v3.11.0"
+      version: "dev"
