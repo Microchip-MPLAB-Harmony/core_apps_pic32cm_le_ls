@@ -51,12 +51,12 @@
 #include "peripheral/sercom/usart/plib_sercom3_usart.h"
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "driver/usart/drv_usart.h"
 #include "bsp/bsp.h"
-#include "peripheral/pm/plib_pm.h"
+#include "driver/usart/drv_usart.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
+#include "peripheral/pm/plib_pm.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "system/int/sys_int.h"
@@ -74,6 +74,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM5164LE00100"
+#define DEVICE_ARCH			 "CORTEX-M23"
+#define DEVICE_FAMILY		 "PIC32CM"
+#define DEVICE_SERIES		 "PIC32CMLE00"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
