@@ -58,10 +58,10 @@
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/pm/plib_pm.h"
 #include "peripheral/tc/plib_tc0.h"
-#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "system/time/sys_time.h"
 #include "app.h"
 
 
@@ -73,6 +73,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM5164LE00100"
+#define DEVICE_ARCH			 "CORTEX-M23"
+#define DEVICE_FAMILY		 "PIC32CM"
+#define DEVICE_SERIES		 "PIC32CMLE00"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
