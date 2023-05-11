@@ -50,10 +50,10 @@
 #include <stdbool.h>
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "peripheral/pm/plib_pm.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
+#include "peripheral/pm/plib_pm.h"
 #include "bsp/bsp.h"
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -65,6 +65,12 @@ extern "C" {
 
 /* Non-secure start address */
 #define TZ_START_NS 0x40000
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM5164LS00100"
+#define DEVICE_ARCH			 "CORTEX-M23"
+#define DEVICE_FAMILY		 "PIC32CM"
+#define DEVICE_SERIES		 "PIC32CMLS00"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000

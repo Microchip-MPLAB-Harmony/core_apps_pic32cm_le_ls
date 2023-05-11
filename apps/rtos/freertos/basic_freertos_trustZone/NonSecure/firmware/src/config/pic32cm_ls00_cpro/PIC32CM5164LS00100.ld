@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------------
  * MPLAB XC32 Compiler -  PIC32CM5164LS00100 linker script
  * 
- * Copyright (c) 2022, Microchip Technology Inc. and its subsidiaries ("Microchip")
+ * Copyright (c) 2023, Microchip Technology Inc. and its subsidiaries ("Microchip")
  * All rights reserved.
  * 
  * This software is developed by Microchip Technology Inc. and its
@@ -77,6 +77,7 @@ ENTRY(__XC32_RESET_HANDLER_NAME)
 #elif (RAM_LENGTH > 0x10000)
 #  error RAM_LENGTH is greater than the max size of 0x10000
 #endif
+
 
 
 /*  Linker Macros controlling memory regions for TrustZone-M
@@ -228,6 +229,9 @@ MEMORY
  * 
  * CODE_REGION defaults to 'rom', if rom is present (non-zero length),
  * and 'ram' otherwise.
+ * N.B. The BFA will still allocate code to any MEMORY named 'rom' regardless
+ * of CODE_REGION's value. If you wish to use rom for something else please
+ * rename the MEMORY entry.
  * DATA_REGION defaults to 'ram', which must be present.
  * VECTOR_REGION defaults to CODE_REGION, unless 'boot_rom' is present.
  */

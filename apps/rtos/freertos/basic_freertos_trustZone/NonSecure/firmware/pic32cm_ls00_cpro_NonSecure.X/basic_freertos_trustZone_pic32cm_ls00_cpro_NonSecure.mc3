@@ -1,4 +1,4 @@
-<config configName="pic32cm_ls00_cpro" projectName="basic_freertos_trustZone_pic32cm_ls00_cpro_NonSecure" configVersion="1.1" device="PIC32CM5164LS00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="pic32cm_ls00_cpro" projectName="basic_freertos_trustZone_pic32cm_ls00_cpro_NonSecure" configVersion="1.1" device="PIC32CM5164LS00100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -1653,79 +1653,79 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\osal\osal_freertos.h</file>
-         <hash>ca5e502b9f076c4bdc8d97ac2e4cfdfa5d1b49f7d64222c353fac4dcd794bc7c</hash>
+         <hash>7ad9faa903d8587bab9490660328f134b8e027f9c24bca47201f3f96f3b99474</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>a62731cd211dd9caf70958b229d4a3a607ef12e6fbfec573a0d089f21c45f34f</hash>
+         <hash>0ec303ba296caca5de955dc470bcadd134fb15b192ddf61c9afc92070bc1039a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\mclk.h</file>
-         <hash>d3d6b4cef697c9541f345da837f0459d41aa66e935c4616d098d8ba8379f39a5</hash>
+         <hash>165f768cd7fc653b5b9488b0e08d57608fbaddb8585e6e8deed3f01fd2785d91</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\eic.h</file>
-         <hash>ee006b44220e96a8ba9d4f18eebac31f79ee184a3cd073e6411e7e4d0a678ccf</hash>
+         <hash>e3466f8eee9caa37187ee265aee2a8b563e1924dfd483cd92fe51fd0e3ba0a44</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ptc.h</file>
-         <hash>648ed5e23f6351b2d3076dd4931af5da7ffbdbf37d1a7ca548fe2233ea20b29a</hash>
+         <hash>099843e5a81d0d5899ff9ae024f62ac869ada1fd70873bf682368f16667eebf6</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\osal\osal_freertos.c</file>
-         <hash>6f35cfd335587dd112d0ac648ae99539a5acbb98ba80ce6e8c7c855e7b8d7465</hash>
+         <hash>85201651ffb4dad86674b478746e0dc8cd833f98b39c83efc2ae3639f3efdd3b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\opamp.h</file>
-         <hash>053e18d2a23f371b1040f21fb9745fd509fecc5ce771db0d38f64f76f1b812af</hash>
+         <hash>1c891b8b2267a87a3abbfa74d3a1fb82eb6367e17c4ed2519c0136b74b2a52fd</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom4.h</file>
-         <hash>afb52c2f946c8440f94bf8c4b06ee60a136578983d9bd1cd4d356bcb04bec4a2</hash>
+         <hash>9e0c573175f12a184b53b043343580ee4273d8527efa7184053f56ad4a8f33b6</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dsu.h</file>
-         <hash>7c02d339a0a2a75889f1a97c6b75baa88471392076694cc3e4340d14228ef280</hash>
+         <hash>eda22e00047540dfb64ba4c292c3513c512e60e708523ad9d305d6a9f2413b2e</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc0.h</file>
-         <hash>54f50bd3bb2162d6283bde858af4b05c971f3f2eb05ac9b21226eb3427e2c2ef</hash>
+         <hash>0ca4865e8207eaa842886cc93db8584f724a008f1347526d545ce2a419c4cbe4</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\FreeRTOSConfig.h</file>
-         <hash>c40c73ba3370dc897784bd13423d69f1e6f40361833f63f80d388ebfea5b149d</hash>
+         <hash>440715d982d77a89fcc44fb2b82f79f1dc7777ab4cd0b6511f46b4dd23ac3ada</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\freqm.h</file>
-         <hash>73e42e7f25e7a18166f7b9792a86396d318fbbc8c48b0ea4efbe30522ac25ccb</hash>
+         <hash>59789d9a64418783d2019b9b27335adfef075327dc602d3942e58384a281f9a4</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\eic.h</file>
-         <hash>309ceb76598a7c5a052e1f81f47b1066a257dd572e37e5db6236b7a758b89f7e</hash>
+         <hash>aa30b8f4226aae04a97135b4c1a3d2796af79c229acce1c0433d5e893d53e429</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ptc.h</file>
-         <hash>9f0648afcbd3a6d022275d359cbdb2f3cf816b712f39919f226e33b4b6a4bfef</hash>
+         <hash>92c25a41b5ad6974ea27e48931d95d680ec13c2c3e0224fa721b3705320c0b77</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\trng.h</file>
-         <hash>a4c96bef50c1a9ff24c3b799828ad40c1f88094def7e7d5cb4039680e93c238d</hash>
+         <hash>e31707792744feec014894abe78ae1d3567f61921e82bfc83758c37372ab8f36</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ac.h</file>
-         <hash>2e33f6c2d54b520ddbb06e5ee7db0bad6c686ec05d0404acec7e0f4784b44e02</hash>
+         <hash>58b31e2266ea888ef442d074bd8a51c57135f827ad624a6e3a21f5d89caaa40b</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ptc.h</file>
-         <hash>648ed5e23f6351b2d3076dd4931af5da7ffbdbf37d1a7ca548fe2233ea20b29a</hash>
+         <hash>099843e5a81d0d5899ff9ae024f62ac869ada1fd70873bf682368f16667eebf6</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\pm.h</file>
-         <hash>bb4a6041a4a09eb37228373cd15069dfacc572fea52d8be696cc52c08b0bc8fa</hash>
+         <hash>6bd9911fca069c24886a7787e2b252e2255245f34c0e8c979c90cd203ac970df</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\freqm.h</file>
-         <hash>ae7fdaf13bbd3e781e0052402c0513788cd6117110a1459c9d714941783cdd14</hash>
+         <hash>0c59426e0f3dbe5ac459765843780d101bf90d36090892ff96cb0f364f1920d8</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -1733,27 +1733,27 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>06b5b66a9b98ad4998c82d353c0108b9db1a846951b8865cbdeeef90c5bbe2fe</hash>
+         <hash>3cddf2b3d47ae387e376ac75eb468f9d8ffb575d68c143e08d54af4087474cce</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ac.h</file>
-         <hash>2e33f6c2d54b520ddbb06e5ee7db0bad6c686ec05d0404acec7e0f4784b44e02</hash>
+         <hash>58b31e2266ea888ef442d074bd8a51c57135f827ad624a6e3a21f5d89caaa40b</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\rstc.h</file>
-         <hash>b643c11c895989fe00aba5d9157d529239625c749807237109b90f20e5b7186e</hash>
+         <hash>54dd5c4b2a53dc0c1ac3e6daf49c52f78016bc79143a1f6708c44df8d35df43f</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\trng.h</file>
-         <hash>fcb9b12f5d3f0cf8a9065d3affa4ada4f17cad40c87c8b75d36733dd10975392</hash>
+         <hash>5e8531947353e242613d6631d0eea891c88c745f00e4c476f9542111d9dfdeb7</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\wdt.h</file>
-         <hash>e9963bbe456e5eb415002c621b2a59440d4ac920bf876fcd0240cf3090ddc5ab</hash>
+         <hash>434c44920af0268dc0f1f729cfb22a4b0020dc874918ac311785974419028e4f</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tc.h</file>
-         <hash>807e649b414b1cc701f76c9c8e32edfda37b36159846a78c9fde8e1402b299eb</hash>
+         <hash>3e7f544c3f1c73b66922f4faf61458b83a615bca6acdd36d1c3ea67f4f4b2f2a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -1765,35 +1765,35 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\gclk.h</file>
-         <hash>4666ee8c4fa7550e1ed30b384471d1dd6440ff5ba4142325760d3562786a277b</hash>
+         <hash>9079d2b9034bc0585d270eaa5eab34106b2a09593b5a9567b078ff425f9703ac</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\FreeRTOSConfig.h</file>
-         <hash>c40c73ba3370dc897784bd13423d69f1e6f40361833f63f80d388ebfea5b149d</hash>
+         <hash>440715d982d77a89fcc44fb2b82f79f1dc7777ab4cd0b6511f46b4dd23ac3ada</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc0.h</file>
-         <hash>54f50bd3bb2162d6283bde858af4b05c971f3f2eb05ac9b21226eb3427e2c2ef</hash>
+         <hash>0ca4865e8207eaa842886cc93db8584f724a008f1347526d545ce2a419c4cbe4</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tram.h</file>
-         <hash>fe6e60619d25025c7be28abb8c45103649492066d84d5a923e913a1a39e747dd</hash>
+         <hash>243e79e33661719d810eaa67d4008b3a30b2aa0c5f3cd0e0ed0f1d6d3190c8c0</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ccl.h</file>
-         <hash>07a2f02444fb63dac009ea2aa0161da68da3daa03196a28a2813cc9acf8b834e</hash>
+         <hash>ec3e2c6dff5b5d099ce59575a02e70b5c72fdff83540dcd86903fd108067e758</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom3.h</file>
-         <hash>e272da4388aedc27fa7b62e083310179451579d405e98a3c24616fa13a4d4dca</hash>
+         <hash>ce47f8e3f90107ee51eb294adf7220f7c87733975ea51b4b0f05421166886a57</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\rtc.h</file>
-         <hash>55ca0054efaf233a6cabcc57763a557d4f90413057acdaa5cf1f217768aea531</hash>
+         <hash>65e062cd0c27516748fac265b8f790f8e81e5b533d2fd15279ed94ce2894e28a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\pic32cm5164ls00100.h</file>
-         <hash>d701758d36e593d778cdd4eefb6a941ab235bf118afce6c2c3f2015ac0fd1713</hash>
+         <hash>8e1e4692b634b4241aa460f964e48cc1560a2d8b1cc6424fc997f1aa547bf446</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h</file>
@@ -1801,11 +1801,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>dae8ab1093eed0eebd86eef7f4e777e3d249d98b75528ff3841d41ce1c8f3fa6</hash>
+         <hash>24962ef361f396aaa5e6e33776eeeddaf2fb251c87b6fe50602acc56c537b093</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\fuses.h</file>
-         <hash>24f29217b81d81682e65cc040373b95c782a7570c19a15983b88ccc1252091a4</hash>
+         <hash>0b99065944fc5863bf836ef105c36f77285f63b2f12576aab71573db694d747a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\core_cm23.h</file>
@@ -1813,15 +1813,15 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\pac.h</file>
-         <hash>1e7a340af003d7b4b14508d84ba871f0d295c68a6e04c6a69b7b2d2526116c49</hash>
+         <hash>bb344ef795807af20a34825ce4c57ca9e2decf2f4099b181e295751ae1730b9f</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\adc.h</file>
-         <hash>b00c66c54f26b31acc91a41d0c2edb69cbacea5cd2056fa10245fa92119aa223</hash>
+         <hash>2c507bc13e422d647f4ad865d66abece4e6ef0628a0f8c60e134cdd93dc1ac4e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\mclk.h</file>
-         <hash>4aeaefdbe044814f2769598ac26e09dcb334691311e9bac17715c3aacc1dcead</hash>
+         <hash>cc3c5bac4b1120ffdd7731d4163608bda84618abf61dfa6b50033a7b1e40bec2</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h</file>
@@ -1829,27 +1829,27 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>a73c0b319370116d5981d5dacbabad3a775f85ae540ef70b4ced1c99c9ac6cd5</hash>
+         <hash>7b3dd12a50d649c124c1af8be742671b9965b6f924310bda7984fe1b65c7f54a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>43bd2a4bf5d6495e04c8409187d8f31dfaee58d8f94d7e3a4fd9830e5d7e68dc</hash>
+         <hash>b876d839460197d94d0f95fb93c6aeb457f6fc572d32258480fed7d4de686b6b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dmac.h</file>
-         <hash>c4bf1cde2eef52dfe133e270d48ebf92341e72b61d06493183760a1991961918</hash>
+         <hash>0a30eb7adb36859709586e24373deeea9e2921a5839abb47c9c2b0c154b34a90</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom3.h</file>
-         <hash>e272da4388aedc27fa7b62e083310179451579d405e98a3c24616fa13a4d4dca</hash>
+         <hash>ce47f8e3f90107ee51eb294adf7220f7c87733975ea51b4b0f05421166886a57</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\pio\pic32cm5164ls00100.h</file>
-         <hash>c6de739e77a32be788068bb4a247e5f253a4615b2f913c8da4e262cf613f4a20</hash>
+         <hash>f215ba10b06196475148eb325d34d87444cdcb5e40d10a4142a6dd3cac709bc3</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\evsys.h</file>
-         <hash>42370b6117c3cc3059804672b0e68b34f7273f4a598e9ec779c6871a7a2495b1</hash>
+         <hash>f2a2be44a72457e72eb9f63ebbe3752123915dddbfbc9b0ede011f6ba3eb8f54</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\device_cache.h</file>
@@ -1857,15 +1857,15 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\port.h</file>
-         <hash>88e25d947130d76c10fde3ac17a81c9025049dc707e82729cc93ccaf5693e20e</hash>
+         <hash>22286b11b2bccae4894e7a7f7d3171283dce99afca05989f02dafdab606a2327</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\wdt.h</file>
-         <hash>53d9261ef68108b2e2d51a711dce93dc2073069cb099e5540c59fff763e5c5aa</hash>
+         <hash>b460ff493696a74a5d3ca5b2abd2afa9381e26fa246953368c430cfda96e6621</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc1.h</file>
-         <hash>779366a8b6dab2731acbbc9481e2385d0f8eb4320b00c048469f36ec84494990</hash>
+         <hash>48096bb656ed4be2239ca9709224f829d4f5598709c994ea1fa09eedf04debdc</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
@@ -1873,11 +1873,11 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\eic.h</file>
-         <hash>ee006b44220e96a8ba9d4f18eebac31f79ee184a3cd073e6411e7e4d0a678ccf</hash>
+         <hash>e3466f8eee9caa37187ee265aee2a8b563e1924dfd483cd92fe51fd0e3ba0a44</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>b6da8ad0cb09303c87eb634679b97f56001c14f45acd1378103504699a95cad4</hash>
+         <hash>cf52c15fa26a8d4f82b55909b75ebfe2aab25468ba7780748912ddead9812b4e</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\libc_syscalls.c</file>
@@ -1885,19 +1885,23 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\i2s.h</file>
-         <hash>133b29d510499cbc2d3b055b3e13470d3bc1e1832107fd7faf0378e2f6d20881</hash>
+         <hash>334053f65575a1667a43befb1e861ded8840c0fdc726cdca7adc14bfad261996</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\port.h</file>
-         <hash>c9172a80934fed7edf2d0577099e630f7d67be8c53036248edf9a63df2b7b64e</hash>
+         <hash>fecbbcd2ff869fa0fe6225dbf0e28729abf5ffeefa5c6307eafc117b7f691809</hash>
+      </entry>
+      <entry>
+         <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\sys_tasks.h</file>
+         <hash>e6a52fd8a9c1a711cd7dea48c63cf30b372824281d9dc846b2ecd95d5e11ec6a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom4.h</file>
-         <hash>afb52c2f946c8440f94bf8c4b06ee60a136578983d9bd1cd4d356bcb04bec4a2</hash>
+         <hash>9e0c573175f12a184b53b043343580ee4273d8527efa7184053f56ad4a8f33b6</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\wdt.h</file>
-         <hash>e9963bbe456e5eb415002c621b2a59440d4ac920bf876fcd0240cf3090ddc5ab</hash>
+         <hash>434c44920af0268dc0f1f729cfb22a4b0020dc874918ac311785974419028e4f</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\trustZone\nonsecure_entry.h</file>
@@ -1905,71 +1909,71 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\adc.h</file>
-         <hash>44238c8f92af64c31dcca3a2074baea9047f645f654c564bc466a6f8cc6df36b</hash>
+         <hash>dec8eb2ef6c4744116c8e06e3276ee586a3ac27f90dd3370246d4636de60fd20</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\gclk.h</file>
-         <hash>46c14b251a57a469a6a876bb4d3d97248a4991f62aed3f845f0392100f973aa7</hash>
+         <hash>d150ef26fcd72093bf9251ef81f4cbb1d2106cfebc9d90c6b30c326267dbfd74</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\freertos_hooks.c</file>
-         <hash>1c31f7febed38afbcb09d11b002c5dddda98c7ed7aba9ff8f8e32b8c5f288a47</hash>
+         <hash>3062db4f47d59d8ff5654c75b8f3d09cb07ce6c85fd6dfdc1b48536ac865a526</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_port_macros.h</file>
-         <hash>25d01ff80c814393e8aca94a3b8de01ce6a152220828e708fb10d8cefe33bd0c</hash>
+         <hash>bbf060910331b1f92cec8d8915d1d7a007ae077264e3ad860be6b3105180f2ff</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\nvmctrl.h</file>
-         <hash>9aa7666d3ab11ff200a0fee0f164910d7139f3cf5e260b0fa5b862afa6e4cc27</hash>
+         <hash>d3c502bcccc4b2315469ec448b741eefc79012adbc0fcc3c77487af755c58723</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc2.h</file>
-         <hash>b4c6a2c1bb0aa69f8b6d111412e1b2f7c087886a2aed098d2a1a0652ac38d70b</hash>
+         <hash>b8cd017d7084862faf13523724be9ea14e8d9ba50d873c87d6ca38e85ee58d58</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\idau.h</file>
-         <hash>055a493f4795ab3b24bdee32f44f43e40e25a8fb0fc904040d076ffb216daab7</hash>
+         <hash>504cb94cf9500e2374c4d7140ae0841fd65d0419d0131cba04fd008ee0429174</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\tasks.c</file>
-         <hash>c2e082523362dca85c5fc10596d835baff3675f917e0fc4d5f5c3d753f3df8d4</hash>
+         <hash>722c8b6d3c2e677586fff879f06422958f44994d429a7fa19b12022a00f7882b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>ff7a2139380ad0e2695bbc0d068db7a3b7e54ec41387b4c77acbe1aaa2921b7c</hash>
+         <hash>1b61c1669091e59798a34c32c0f1e234d3f6a645f47641753eceeb7e1d9ce628</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\gclk.h</file>
-         <hash>4666ee8c4fa7550e1ed30b384471d1dd6440ff5ba4142325760d3562786a277b</hash>
+         <hash>9079d2b9034bc0585d270eaa5eab34106b2a09593b5a9567b078ff425f9703ac</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\exceptions.c</file>
-         <hash>cc07b84902bf881b410bee8cd4463b438ad2997c8fd8d3f308a16d926f75d601</hash>
+         <hash>3d788ce1bd25caaaf6b533ec5b06e4b1e753044c1a217dd5cdf8629628ae85a9</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom2.h</file>
-         <hash>7dc5289df27a4d4dece36c8be24471c5404082265e085271c4763caa3b16955a</hash>
+         <hash>d8bb360dd43de564c6badd555d80ae7b31754094d76682e8e4fe8e4a71c98793</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc2.h</file>
-         <hash>a62ff9b14a140326def4f9a6ccb609a7d2356d5978026f2239232561e1c965f9</hash>
+         <hash>6c7d62095090b9292b763497cb2e98f5518d5990754c3770c880cf5111a22474</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>c95eb0d549ff1c20edebfec41d73584b5a20d21df20a724084200954b9e8d252</hash>
+         <hash>7ade8f368002778c723b3c4e14084910b7225cd36363ed0c948e9ea36c6f251f</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\i2s.h</file>
-         <hash>f0694674c413cb2cd1e014ffd651211c03086c5cc8dcc9c74579964e45ad6529</hash>
+         <hash>e7e81c83f820306557e91d666d0769d24d0d7448eab421ae0b13bb06f34ecce6</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc2.h</file>
-         <hash>b4c6a2c1bb0aa69f8b6d111412e1b2f7c087886a2aed098d2a1a0652ac38d70b</hash>
+         <hash>b8cd017d7084862faf13523724be9ea14e8d9ba50d873c87d6ca38e85ee58d58</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dmac.h</file>
-         <hash>c4bf1cde2eef52dfe133e270d48ebf92341e72b61d06493183760a1991961918</hash>
+         <hash>0a30eb7adb36859709586e24373deeea9e2921a5839abb47c9c2b0c154b34a90</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\trustZone\nonsecure_entry.c</file>
@@ -1977,15 +1981,15 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc2.h</file>
-         <hash>a62ff9b14a140326def4f9a6ccb609a7d2356d5978026f2239232561e1c965f9</hash>
+         <hash>6c7d62095090b9292b763497cb2e98f5518d5990754c3770c880cf5111a22474</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom1.h</file>
-         <hash>3ed20d7b0afa7b24a79d6903f32f5af3572a84455385015b43cc6d0b8a6648ce</hash>
+         <hash>48a2162b8223ac50eaabe8046f071fd6c2f4cf7c82301ab9a8fac0c983b5f418</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\adc.h</file>
-         <hash>44238c8f92af64c31dcca3a2074baea9047f645f654c564bc466a6f8cc6df36b</hash>
+         <hash>dec8eb2ef6c4744116c8e06e3276ee586a3ac27f90dd3370246d4636de60fd20</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
@@ -1993,11 +1997,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>85a11a834d04120402087ac61190566f893480e9d6c8fe903218330dc4ea7d30</hash>
+         <hash>45f2245c914ed25ab26a1ea78ddd4ac74cb6522e1b26ac5c44b614ca4c8cee99</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dsu.h</file>
-         <hash>13b555c5b350715030205846b6cea8486a22aa9f61fa0fa8b8df621bd0b8a364</hash>
+         <hash>c0527e2d8fa586fbcfc31b8576beb2b743b31df6fe856ec83a4ceaf210a5e4dd</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h</file>
@@ -2005,27 +2009,27 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\fuses.h</file>
-         <hash>24f29217b81d81682e65cc040373b95c782a7570c19a15983b88ccc1252091a4</hash>
+         <hash>0b99065944fc5863bf836ef105c36f77285f63b2f12576aab71573db694d747a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\supc.h</file>
-         <hash>17955c579a35558b9f6d3104e0348919daf8e63f8384644e82baa88c8195b2f0</hash>
+         <hash>c0a918a5dda90041d7ef8230640954e58967cccbb11e414bbe8a3c59a531c903</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc3.h</file>
-         <hash>af4d1d047ac13e0771a1370ac45221b9bd2fcf5b2122221f3d67a7b80ad4a2c4</hash>
+         <hash>4013366906ea3df2f9187d847b41a55b506d2bd55bac72ba3e3ed03209ec765b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>292c78c91dbf63a6aa028f381b1dd548d549949f4fb9fcfd97f949569e013d76</hash>
+         <hash>8faf4220ded25b00fd72424a2fa4e63e154713ae7b42f7270f1e3289362a6312</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\freqm.h</file>
-         <hash>ae7fdaf13bbd3e781e0052402c0513788cd6117110a1459c9d714941783cdd14</hash>
+         <hash>0c59426e0f3dbe5ac459765843780d101bf90d36090892ff96cb0f364f1920d8</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\non_secure\portasm.h</file>
-         <hash>44a9958d91bef57adf9e47d35de0445b7b30b209d34b803b1e89dc3e0a981012</hash>
+         <hash>d5a2bbe33227973f4f5e415cfec4635d3cea655ef64aa84c7516358296772b99</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\stdio\xc32_monitor.c</file>
@@ -2033,27 +2037,27 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\pm.h</file>
-         <hash>bb4a6041a4a09eb37228373cd15069dfacc572fea52d8be696cc52c08b0bc8fa</hash>
+         <hash>6bd9911fca069c24886a7787e2b252e2255245f34c0e8c979c90cd203ac970df</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ccl.h</file>
-         <hash>07a2f02444fb63dac009ea2aa0161da68da3daa03196a28a2813cc9acf8b834e</hash>
+         <hash>ec3e2c6dff5b5d099ce59575a02e70b5c72fdff83540dcd86903fd108067e758</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\osc32kctrl.h</file>
-         <hash>15e6a725f34f47bfb1d1ab7d153a37ab9b7569c779956152472f957a0ae55a63</hash>
+         <hash>02ea1a8a69a15145281e927345213ec0146b6fc1077ed6887452ed626c826fab</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\non_secure\port.c</file>
-         <hash>a1df21f5ecfe79a380258e020ca8283fa2d2bd09caf437f0428080843bd8f034</hash>
+         <hash>ed5b374f68ec512f04d0b8d0c2589630cb6dd066d8c912ded53d6cdc9d8bcf11</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\osc32kctrl.h</file>
-         <hash>15e6a725f34f47bfb1d1ab7d153a37ab9b7569c779956152472f957a0ae55a63</hash>
+         <hash>02ea1a8a69a15145281e927345213ec0146b6fc1077ed6887452ed626c826fab</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\PIC32CM5164LS00100.ld</file>
-         <hash>297627fdc3ccb4a77f35359d719c49c8267f12d71bff9cf4abdf67a01df485c4</hash>
+         <hash>c3c511fe563ab2557909f2aadaac69c8e30068cd8d7360671cce4a2ea1ecc2ad</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\peripheral\port\plib_port.c</file>
@@ -2065,43 +2069,43 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom1.h</file>
-         <hash>3ed20d7b0afa7b24a79d6903f32f5af3572a84455385015b43cc6d0b8a6648ce</hash>
+         <hash>48a2162b8223ac50eaabe8046f071fd6c2f4cf7c82301ab9a8fac0c983b5f418</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\peripheral\port\plib_port.h</file>
-         <hash>7c4473a79c2ec5afdca3885d1b2a78de6ee3224f23e55662c929aadf5320d1d3</hash>
+         <hash>4857d9cebde25085464075d1e61839bf248b59db221333826b71027026dced00</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\i2s.h</file>
-         <hash>133b29d510499cbc2d3b055b3e13470d3bc1e1832107fd7faf0378e2f6d20881</hash>
+         <hash>334053f65575a1667a43befb1e861ded8840c0fdc726cdca7adc14bfad261996</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc0.h</file>
-         <hash>454457010be46eb55ea0e1fcc87b83f99969d4aaf3aac24fbb34e9c3328b67f9</hash>
+         <hash>88ec47f2398637fbb0374457ba562b83e8fd386b79d1046041748c2fd515ec1d</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\oscctrl.h</file>
-         <hash>74508c0c459b5d9baa066d3cd4bbd465696ea0280334ecc4cdffe6a02e9fbd5f</hash>
+         <hash>1c41a19c77078c9eadce8b6e2829bdeb854544f8349ac64c40328cda9613db96</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\usb.h</file>
-         <hash>737bf0635b6d2a19a1417c104112db1ec044b38fa827af20184b0a0a89944076</hash>
+         <hash>979202574225c2a2e4eabbb99d2e370b44e1bc56591d557f60199134c7e1186c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tc.h</file>
-         <hash>807e649b414b1cc701f76c9c8e32edfda37b36159846a78c9fde8e1402b299eb</hash>
+         <hash>3e7f544c3f1c73b66922f4faf61458b83a615bca6acdd36d1c3ea67f4f4b2f2a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\non_secure\portasm.c</file>
-         <hash>b0cd1377782a5451e7344dc641bb1c6b6733bc3604f069f65f745598a7112c6d</hash>
+         <hash>11e9d446fb7b2fc7e828469b533db4ef50675cfaa240352df69ee5bd3e5f9e42</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\fuses.h</file>
-         <hash>94a8a21a00aa5d597dc1c190d830b1246eafee27efe2bc0ab1273e114926bef9</hash>
+         <hash>f781feba263dd6f6ee158626953cc98b33b48adb554e82b49619b25cc7c84396</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\configuration.h</file>
@@ -2109,7 +2113,7 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dsu.h</file>
-         <hash>7c02d339a0a2a75889f1a97c6b75baa88471392076694cc3e4340d14228ef280</hash>
+         <hash>eda22e00047540dfb64ba4c292c3513c512e60e708523ad9d305d6a9f2413b2e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\bsp\bsp.c</file>
@@ -2117,7 +2121,7 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>d03a08079e678cc6e6a1e2105684ab0082d190bbb731f6807d75e1aca260e98f</hash>
+         <hash>286e3fee81c9107fc6dec40405f500cabdca56836d29747c182f0899bb8997fd</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\libc_syscalls.c</file>
@@ -2125,19 +2129,19 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_context_port.c</file>
-         <hash>ea1907ed1245c65e744625fc84ec31eeb399fbbb8ad4f3b1c06f2692587847f2</hash>
+         <hash>5432f55c36b0aa1db1d33485097dcd11774f9e4470983e81b870a613f7946789</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc1.h</file>
-         <hash>beb4246d371911a9d51b8fa6a4d5e16997f5d67819cedb2d9661ba3ccf2e5f08</hash>
+         <hash>d0fbe3871de0a5d3f66d3b86e6819dd770e8283a5b06505d80a01a130af69933</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\bsp\bsp.h</file>
-         <hash>c0981b89ef5f0317620edce05cc825bea1d792278ce049743b20a17794150336</hash>
+         <hash>b067fbcd68e3ff9faa5fedd8517386e626814ed11c80ef5e6502ca4465079e49</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
@@ -2145,27 +2149,27 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dmac.h</file>
-         <hash>e51ce853ef2f83c3b1f51bbc52bc6779d6b7a1e2b19b2f361707f756587ae09f</hash>
+         <hash>864b9520445767f1b9411e6929b4ca0c19e67b5b0740ae8271b266f255ff9e5a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tc1.h</file>
-         <hash>779366a8b6dab2731acbbc9481e2385d0f8eb4320b00c048469f36ec84494990</hash>
+         <hash>48096bb656ed4be2239ca9709224f829d4f5598709c994ea1fa09eedf04debdc</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\oscctrl.h</file>
-         <hash>74508c0c459b5d9baa066d3cd4bbd465696ea0280334ecc4cdffe6a02e9fbd5f</hash>
+         <hash>1c41a19c77078c9eadce8b6e2829bdeb854544f8349ac64c40328cda9613db96</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom2.h</file>
-         <hash>7dc5289df27a4d4dece36c8be24471c5404082265e085271c4763caa3b16955a</hash>
+         <hash>d8bb360dd43de564c6badd555d80ae7b31754094d76682e8e4fe8e4a71c98793</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dac.h</file>
-         <hash>a64f68075139040fcabe6c80deb52f82f97a10b45ca7ba11ea447a71678f495a</hash>
+         <hash>97915fc04996175a32afa165e4b720f20aa31e44fd0d924bc4a56ff1caa8601a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\pio\pic32cm5164ls00100.h</file>
-         <hash>c6de739e77a32be788068bb4a247e5f253a4615b2f913c8da4e262cf613f4a20</hash>
+         <hash>f215ba10b06196475148eb325d34d87444cdcb5e40d10a4142a6dd3cac709bc3</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -2173,31 +2177,31 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>4452e3b0e6446b74c7d010d308072ba0a35c1f92bcf3882a54bf3796a72517aa</hash>
+         <hash>5cdf4fa35fe059446effff5bf20deaf83ddffb08921bc198fda106b1d17dd894</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>2bf5b5f5d83684c1e6d90e5bd17da9de41d38ed61ec0410f94595ff343f89174</hash>
+         <hash>ee0f596a54137e26ca806ebf067c4c6219a61348f1cbae8861a43d2d4891e1f9</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\rtc.h</file>
-         <hash>55ca0054efaf233a6cabcc57763a557d4f90413057acdaa5cf1f217768aea531</hash>
+         <hash>65e062cd0c27516748fac265b8f790f8e81e5b533d2fd15279ed94ce2894e28a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\initialization.c</file>
-         <hash>62a73072f188aa6edcb6813911bbbc1a6a209756256287b98f38f3de460a93bc</hash>
+         <hash>6c8b3ea19cb49f10eb31456d0c923ffb83c37df3f5ad696478813e92c75335aa</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\evsys.h</file>
-         <hash>f8f01249ec48689516db76496ea2f81c71a57498c3a9a5e168c786110bad041c</hash>
-      </entry>
-      <entry>
-         <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\usb.h</file>
-         <hash>737bf0635b6d2a19a1417c104112db1ec044b38fa827af20184b0a0a89944076</hash>
+         <hash>b24202a1e98a22c5115fa7c5952b78b39d99433e0ca5212b621a380fa07f66bb</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\pm\plib_pm.h</file>
          <hash>027462b9369dc5bb8873f96fc3b5ca69ceaf3bd205be7246e58a093b16ee633c</hash>
+      </entry>
+      <entry>
+         <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\usb.h</file>
+         <hash>979202574225c2a2e4eabbb99d2e370b44e1bc56591d557f60199134c7e1186c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvmctrl\plib_nvmctrl.c</file>
@@ -2205,15 +2209,15 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc0.h</file>
-         <hash>454457010be46eb55ea0e1fcc87b83f99969d4aaf3aac24fbb34e9c3328b67f9</hash>
+         <hash>88ec47f2398637fbb0374457ba562b83e8fd386b79d1046041748c2fd515ec1d</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\pac.h</file>
-         <hash>56c8126ad054fb445262b10b918fbb278fd73e2d13b7fd253dae5cb94b2b27e5</hash>
+         <hash>2eff9c0a7ca726e10b667ce055b485574abb3e15c26c422ec2d7abb08be98f1d</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tram.h</file>
-         <hash>fe6e60619d25025c7be28abb8c45103649492066d84d5a923e913a1a39e747dd</hash>
+         <hash>243e79e33661719d810eaa67d4008b3a30b2aa0c5f3cd0e0ed0f1d6d3190c8c0</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvmctrl\plib_nvmctrl.h</file>
@@ -2221,27 +2225,27 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\opamp.h</file>
-         <hash>bb7d0f398e0db6e0ffb579514bfb070ada052614dfb7aea000b75ef550a42d16</hash>
+         <hash>50fd293b4c2e9dca97786dfeef4f8972abfc52a6240778562009c1baac62013b</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_init.c</file>
-         <hash>18773a1461d922f6c7cf81666b3f628b54a199f269360efd3fb0377343e3adda</hash>
+         <hash>2d73838a2d5f25d1393ada5bd824037971e869ed2a75c9d74d626beb9bd1a61c</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\initialization.c</file>
-         <hash>5c85bf4f9a05f03545fbe9f2162b604084ca2e7aaf38ce4bcec73c46219c98e4</hash>
+         <hash>b7bc3010ab5648fc23a0b9871a29c3f85ff0f90dad7169225032524718b4c2ed</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\pm.h</file>
-         <hash>ae9d9c8afe213d0dfd0b866e7db6058d1db20d6b48bc486c622cae0af7ad3aa7</hash>
+         <hash>835230eabca173d443bd976eade6eb5ec67a00cecfeb93648c97deb3200aff7c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom0.h</file>
-         <hash>d2f806b4e6310f9edd9351e50494d7ced58a2af97efa2a4f69daf32b3d917422</hash>
+         <hash>5f0bfd0d721478d3233871f22de50100cf190d8a9c400e78a50e813d66fa372a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\pic32cm5164ls00100.h</file>
-         <hash>d701758d36e593d778cdd4eefb6a941ab235bf118afce6c2c3f2015ac0fd1713</hash>
+         <hash>8e1e4692b634b4241aa460f964e48cc1560a2d8b1cc6424fc997f1aa547bf446</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
@@ -2249,11 +2253,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>82542c835466f2abd0eeb2988a0bcecf3d6a14c9dd87ad4a7ca325b15afbce95</hash>
+         <hash>76e967b14d231e4f31f014f1564f359a7bfd36bfa263ee6f437afa8c056df657</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_init.h</file>
-         <hash>e8ea6ec1e9a74ed98be28aef8f0b04a43db9d48b1d3813803bd5642cdd7881a7</hash>
+         <hash>18ccc503c6085d4f9b1759ade241b2d5810c61d0a5cfa9393c36718e282e812c</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\bsp\bsp.c</file>
@@ -2261,11 +2265,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>0f7a750669b24c41af51482eb76c867a1ed11c14dd4877d07433db3953d9a792</hash>
+         <hash>5014408cc33f0f616215f2b48c67b0d47ccc35bfd5f0044ac653b5bbc6cf5778</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\supc.h</file>
-         <hash>e5ee0c8cae7ca494ca9bf4481ff87661b69b3ca2f157e99d2eaa71c7d71a3e58</hash>
+         <hash>fd09d244dc7be4060374430220d41b061264acf1d760903ded972e52dd8eaf20</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\pm\plib_pm.c</file>
@@ -2277,43 +2281,43 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\oscctrl.h</file>
-         <hash>fe9889a25ac6b8ea0e6092f43d19f03d7a6b69b150460e024753bb769087f695</hash>
+         <hash>18d05c96ea9cdecb158278544d33df082f6fcd491dba0eb25d1719f7acf3c6d0</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\bsp\bsp.h</file>
-         <hash>a3219ffeffe3cfffa2293d57ce9b48851f9cee88158552d7faf470f9b2b429a9</hash>
+         <hash>5480c7a57bad0db39134d90b15e73941083f944aa273191db479cc2c0c78a5b6</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\pac.h</file>
-         <hash>56c8126ad054fb445262b10b918fbb278fd73e2d13b7fd253dae5cb94b2b27e5</hash>
+         <hash>2eff9c0a7ca726e10b667ce055b485574abb3e15c26c422ec2d7abb08be98f1d</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>4566d5abfceea128a553ecf2bbb22b9d7c9c8a1d3c1f02f9091182b5290d02fc</hash>
+         <hash>ebf0cdce261dc4a256c06c0d4ad2582e6026a6da0e973d4cb92092e94ce8f370</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dac.h</file>
-         <hash>10aac2630f1d62d2d0600892df09cdbc7e37d9975bbc543076965301f32aa476</hash>
+         <hash>37adcc65fb6bb67f11e2d10bd66754bfa4c89de679780d62cda20bfde7b81e97</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ac.h</file>
-         <hash>20d033978f1b752dde994c197ce2a41b1c96ab4f911d871d36cae97b70e1619f</hash>
+         <hash>6f24fdc0ee4824c44883231584c7787541352b17f7b752a39f67c1a0c3c97438</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\pin_configurations.csv</file>
-         <hash>848ff57ddab756c1ed9e71db88ad0892614f835c698d89a381f820ba6241cbb4</hash>
+         <hash>3b18b604f18919e860f5c88d830e9969f2353679041cd82abaae512d8345db9e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\pac.h</file>
-         <hash>1e7a340af003d7b4b14508d84ba871f0d295c68a6e04c6a69b7b2d2526116c49</hash>
+         <hash>bb344ef795807af20a34825ce4c57ca9e2decf2f4099b181e295751ae1730b9f</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\rstc.h</file>
-         <hash>239c057ac4f30a3bfb6f3b1409bec2440ee95aa437ba82e74e65f2e8ac4d45c5</hash>
+         <hash>dc9e011aa5b7531ec46818e6a8750e03496355563ced85e0814e6de9265ef45e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tram.h</file>
-         <hash>bb4a00109980cb3a0d4f5bee74784fd3b5a733ac132688c5e1f1051c3ad880ec</hash>
+         <hash>844433c7636a04e617ee7281657949e8d376a34e14791636c559e7a4757a97c5</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\main.c</file>
@@ -2321,27 +2325,27 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>6bc571df5182f06bcafe5280fdf762bbba2bf1dbb7867ae3721ce2d7e3e51dae</hash>
+         <hash>c624e8cdfc07844d4cf35382f3cc908c872375c7a3048482bdc110bda88cc4f2</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc1.h</file>
-         <hash>beb4246d371911a9d51b8fa6a4d5e16997f5d67819cedb2d9661ba3ccf2e5f08</hash>
+         <hash>d0fbe3871de0a5d3f66d3b86e6819dd770e8283a5b06505d80a01a130af69933</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\usb.h</file>
-         <hash>f9b08b325fc5318dba7bbf79b71466465ddf6659cd3a2fe88ca64d9369ad8d42</hash>
+         <hash>06e92254666462180e73958fcc88515798df37ad9b4d38c89eeff62f89b8c77c</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\nvmctrl.h</file>
-         <hash>9aa7666d3ab11ff200a0fee0f164910d7139f3cf5e260b0fa5b862afa6e4cc27</hash>
+         <hash>d3c502bcccc4b2315469ec448b741eefc79012adbc0fcc3c77487af755c58723</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\rstc.h</file>
-         <hash>b643c11c895989fe00aba5d9157d529239625c749807237109b90f20e5b7186e</hash>
+         <hash>54dd5c4b2a53dc0c1ac3e6daf49c52f78016bc79143a1f6708c44df8d35df43f</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\trng.h</file>
-         <hash>fcb9b12f5d3f0cf8a9065d3affa4ada4f17cad40c87c8b75d36733dd10975392</hash>
+         <hash>5e8531947353e242613d6631d0eea891c88c745f00e4c476f9542111d9dfdeb7</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\device_cache.h</file>
@@ -2349,15 +2353,15 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\osal\osal_definitions.h</file>
-         <hash>6dc49e317b4557c5516a172c1437125874abd98ffcc7260e3422966078dcef7f</hash>
+         <hash>af2f2336fac0fd5b49fb2d1c8f81baa4f554101b06f130aaa608cd9685c4ac35</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\definitions.h</file>
-         <hash>85781ab595fae490d19a992bb807aadd428666a24dd175220c99873fda96da2a</hash>
+         <hash>7f98fe0406864b032b3caed455066071b83b080e04a5b0c479905af8e2b4c992</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\evsys.h</file>
-         <hash>42370b6117c3cc3059804672b0e68b34f7273f4a598e9ec779c6871a7a2495b1</hash>
+         <hash>f2a2be44a72457e72eb9f63ebbe3752123915dddbfbc9b0ede011f6ba3eb8f54</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
@@ -2365,35 +2369,39 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>c8d9b7a52d092f37b4c3b821806bd6e8a30dbcc600960f9aed2b2f10f965c09f</hash>
+         <hash>03e9c94aba57e3cf7f4f73bc2d3eb4a96ae38f3425eedb5450622ca286475a0b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\idau.h</file>
-         <hash>497a05035865dd28cc76b3f6733210fdae6dbf2593d425aea901263544b32961</hash>
+         <hash>3aa0766f015eb9436b0e251ce70755c60cdaf8fbb03698ca40158f299ea50261</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\eic.h</file>
-         <hash>309ceb76598a7c5a052e1f81f47b1066a257dd572e37e5db6236b7a758b89f7e</hash>
+         <hash>aa30b8f4226aae04a97135b4c1a3d2796af79c229acce1c0433d5e893d53e429</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\opamp.h</file>
-         <hash>bb7d0f398e0db6e0ffb579514bfb070ada052614dfb7aea000b75ef550a42d16</hash>
+         <hash>50fd293b4c2e9dca97786dfeef4f8972abfc52a6240778562009c1baac62013b</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ptc.h</file>
-         <hash>9f0648afcbd3a6d022275d359cbdb2f3cf816b712f39919f226e33b4b6a4bfef</hash>
+         <hash>92c25a41b5ad6974ea27e48931d95d680ec13c2c3e0224fa721b3705320c0b77</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ccl.h</file>
-         <hash>c33ff2164dcc4ec80ba66ea5058ab275acffee2ab9c8bdfc89c2ad6df69c74b2</hash>
+         <hash>3b9ce91647c2951c69fad0e85f70bbc785e0a6483834011015ef8c5d9347e650</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\wdt.h</file>
-         <hash>53d9261ef68108b2e2d51a711dce93dc2073069cb099e5540c59fff763e5c5aa</hash>
+         <hash>b460ff493696a74a5d3ca5b2abd2afa9381e26fa246953368c430cfda96e6621</hash>
+      </entry>
+      <entry>
+         <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\non_secure\portmacrocommon.h</file>
+         <hash>092ada632d0d217b194ba3e1344b814c0ca80913ee3546b40e5c5914a100cd87</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvic\plib_nvic.c</file>
@@ -2401,19 +2409,19 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\mclk.h</file>
-         <hash>4aeaefdbe044814f2769598ac26e09dcb334691311e9bac17715c3aacc1dcead</hash>
+         <hash>cc3c5bac4b1120ffdd7731d4163608bda84618abf61dfa6b50033a7b1e40bec2</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\osc32kctrl.h</file>
-         <hash>a080b7c7f08a2ea66e03882e1a7bf1e1fcd174265cae8bdb4c3e6ff309116e0d</hash>
+         <hash>9c07cc47c123518a4d8d0174820411cb2b2ce436e428ceda63e15f08f8dfc21d</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\tcc3.h</file>
-         <hash>af4d1d047ac13e0771a1370ac45221b9bd2fcf5b2122221f3d67a7b80ad4a2c4</hash>
+         <hash>4013366906ea3df2f9187d847b41a55b506d2bd55bac72ba3e3ed03209ec765b</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\sercom.h</file>
-         <hash>ed3537231e942efb9bc95e368122c9dd2fef43e6a5119a2792da3e6fd3276960</hash>
+         <hash>d7ba417e50ccc22addd5d2db99fa1593e52a7ab0122b6174ffc127bbd19fa396</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\device.h</file>
@@ -2421,7 +2429,7 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom0.h</file>
-         <hash>d2f806b4e6310f9edd9351e50494d7ced58a2af97efa2a4f69daf32b3d917422</hash>
+         <hash>5f0bfd0d721478d3233871f22de50100cf190d8a9c400e78a50e813d66fa372a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -2433,11 +2441,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\rtc.h</file>
-         <hash>bf6ffdae06c8d8f10b3c15eeab17bd8b82abdef6d80ac50914635d08696b8ea4</hash>
+         <hash>aeec7c302f78a757d5e725f398aa6c0b53820b2fcb04859c0fc85e792ccea615</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\evsys.h</file>
-         <hash>f8f01249ec48689516db76496ea2f81c71a57498c3a9a5e168c786110bad041c</hash>
+         <hash>b24202a1e98a22c5115fa7c5952b78b39d99433e0ca5212b621a380fa07f66bb</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\app.h</file>
@@ -2445,7 +2453,7 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\pm.h</file>
-         <hash>ae9d9c8afe213d0dfd0b866e7db6058d1db20d6b48bc486c622cae0af7ad3aa7</hash>
+         <hash>835230eabca173d443bd976eade6eb5ec67a00cecfeb93648c97deb3200aff7c</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvic\plib_nvic.h</file>
@@ -2453,15 +2461,15 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tcc.h</file>
-         <hash>0fd91af4856b5862cd73ac979a63a21229382fd9401c70faf058233af3a821a3</hash>
+         <hash>04613cfaf568a207b3119523241bafbae3ca58fecebfd43e68ae6181bd535068</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\oscctrl.h</file>
-         <hash>fe9889a25ac6b8ea0e6092f43d19f03d7a6b69b150460e024753bb769087f695</hash>
+         <hash>18d05c96ea9cdecb158278544d33df082f6fcd491dba0eb25d1719f7acf3c6d0</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\opamp.h</file>
-         <hash>053e18d2a23f371b1040f21fb9745fd509fecc5ce771db0d38f64f76f1b812af</hash>
+         <hash>1c891b8b2267a87a3abbfa74d3a1fb82eb6367e17c4ed2519c0136b74b2a52fd</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\app1.c</file>
@@ -2485,15 +2493,15 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\ccl.h</file>
-         <hash>c33ff2164dcc4ec80ba66ea5058ab275acffee2ab9c8bdfc89c2ad6df69c74b2</hash>
+         <hash>3b9ce91647c2951c69fad0e85f70bbc785e0a6483834011015ef8c5d9347e650</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\mclk.h</file>
-         <hash>d3d6b4cef697c9541f345da837f0459d41aa66e935c4616d098d8ba8379f39a5</hash>
+         <hash>165f768cd7fc653b5b9488b0e08d57608fbaddb8585e6e8deed3f01fd2785d91</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\supc.h</file>
-         <hash>e5ee0c8cae7ca494ca9bf4481ff87661b69b3ca2f157e99d2eaa71c7d71a3e58</hash>
+         <hash>fd09d244dc7be4060374430220d41b061264acf1d760903ded972e52dd8eaf20</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\tz_context.h</file>
@@ -2501,35 +2509,35 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\port.h</file>
-         <hash>c9172a80934fed7edf2d0577099e630f7d67be8c53036248edf9a63df2b7b64e</hash>
+         <hash>fecbbcd2ff869fa0fe6225dbf0e28729abf5ffeefa5c6307eafc117b7f691809</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>f288a68b8559a1913dd663136711f7adcaf8b3430627d7102978be4d808a02eb</hash>
+         <hash>dc572f54391c0407fc25db360d912fca9118cddae7bd2e3099eb13f18804e5a9</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\port.h</file>
-         <hash>88e25d947130d76c10fde3ac17a81c9025049dc707e82729cc93ccaf5693e20e</hash>
+         <hash>22286b11b2bccae4894e7a7f7d3171283dce99afca05989f02dafdab606a2327</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>783d9a41c90817eec55d9317475cc2663a785fc9a955c06d3207fcee6e0ec080</hash>
+         <hash>2b46a2511ce5d23a56bc83079333d8d0a2e33763e5829c9383252806887a3dc0</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dac.h</file>
-         <hash>a64f68075139040fcabe6c80deb52f82f97a10b45ca7ba11ea447a71678f495a</hash>
+         <hash>97915fc04996175a32afa165e4b720f20aa31e44fd0d924bc4a56ff1caa8601a</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tcc.h</file>
-         <hash>0fd91af4856b5862cd73ac979a63a21229382fd9401c70faf058233af3a821a3</hash>
+         <hash>04613cfaf568a207b3119523241bafbae3ca58fecebfd43e68ae6181bd535068</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dmac.h</file>
-         <hash>e51ce853ef2f83c3b1f51bbc52bc6779d6b7a1e2b19b2f361707f756587ae09f</hash>
+         <hash>864b9520445767f1b9411e6929b4ca0c19e67b5b0740ae8271b266f255ff9e5a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>21fe8dd565f9610e1ff4a6bf7bebbd16842af13d3d2294f1dc67ad279fb01d22</hash>
+         <hash>db5c169cf3efd68da1c6a923ac84eebc724d602c940bde0b9b5f01f05028fde4</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvic\plib_nvic.h</file>
@@ -2537,19 +2545,19 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\non_secure\portmacro.h</file>
-         <hash>6ae298bc6b6acb8bebab85995d029c1ae08b619c32a48cc4a70db5fe21303155</hash>
+         <hash>f8dddfe2d258338e1180fdc299e2200f5f568480e47dbd66b3ea3fb96a9cde61</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom5.h</file>
-         <hash>90f48fcb8a6b5e81088be7cdfbb5b0c6ad3c154f95f7b559f25353c39aeed630</hash>
+         <hash>edcd89ddf1f95c3d39f2a2fb24dd4347a3006d1756385f7964de0f34f9417e1c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\nvic\plib_nvic.c</file>
-         <hash>0ba2c4e03ac657d567eddddebb7493b9e31549045798af3a90c9f4651a572566</hash>
+         <hash>deeae94a3c22896ec673f0d6dadc7c139a61f8a6826ac2641efd585ddbaaa500</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\osal\osal.h</file>
-         <hash>d42702188d00d3e1d7219d7eef030485896bf8b5ebe55318656e82f0fbb89788</hash>
+         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\device_vectors.h</file>
@@ -2557,23 +2565,23 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>1947473678873963f3193497280d907f59a5936f92df6395327f7ca684cb1aa6</hash>
+         <hash>35000a143464bbbd8df7c9a6f066a64598a24da5174a7be33972e62bfbd75f4d</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\sercom.h</file>
-         <hash>ed3537231e942efb9bc95e368122c9dd2fef43e6a5119a2792da3e6fd3276960</hash>
+         <hash>d7ba417e50ccc22addd5d2db99fa1593e52a7ab0122b6174ffc127bbd19fa396</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\usb.h</file>
-         <hash>f9b08b325fc5318dba7bbf79b71466465ddf6659cd3a2fe88ca64d9369ad8d42</hash>
+         <hash>06e92254666462180e73958fcc88515798df37ad9b4d38c89eeff62f89b8c77c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\gclk.h</file>
-         <hash>46c14b251a57a469a6a876bb4d3d97248a4991f62aed3f845f0392100f973aa7</hash>
+         <hash>d150ef26fcd72093bf9251ef81f4cbb1d2106cfebc9d90c6b30c326267dbfd74</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>0f5a90e8303d9aa2a9c897d6b90da50df21776c6bde7bf8c792cacffa3048c8d</hash>
+         <hash>9a8141d3d6c8044a57d7e448180c9bd2ed32e45ded32be288d095a39dced91ab</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\app2.c</file>
@@ -2585,7 +2593,7 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\trng.h</file>
-         <hash>a4c96bef50c1a9ff24c3b799828ad40c1f88094def7e7d5cb4039680e93c238d</hash>
+         <hash>e31707792744feec014894abe78ae1d3567f61921e82bfc83758c37372ab8f36</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\clock\plib_clock.h</file>
@@ -2605,11 +2613,11 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\clock\plib_clock.c</file>
-         <hash>b31b3c375da81069091119c27c9eedfd7c4e17aeeeeb672bce90210884914607</hash>
+         <hash>d1e7c1018adb361fe1230300230eb38f88cc383798eb468a037d8a1ade6a1e11</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\nvmctrl.h</file>
-         <hash>aafbcfa1a8d42b06031f019d1ccaeb086251b69073090924d17b7436f1b521ef</hash>
+         <hash>dca1b4c6bb1ffb35314d0184a73c2d0f5e851ac2c82183644f05400e564ddaf7</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\interrupts.h</file>
@@ -2617,15 +2625,15 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\dac.h</file>
-         <hash>10aac2630f1d62d2d0600892df09cdbc7e37d9975bbc543076965301f32aa476</hash>
+         <hash>37adcc65fb6bb67f11e2d10bd66754bfa4c89de679780d62cda20bfde7b81e97</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\interrupts.c</file>
-         <hash>55af65da740b0b5e811aab74aa752a3fa5072b4741d836c2424d2856ef93d4a0</hash>
+         <hash>48ac40926593b5ff218492f0efef12921871d3831e79363ce36253cb7a1926f9</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\idau.h</file>
-         <hash>497a05035865dd28cc76b3f6733210fdae6dbf2593d425aea901263544b32961</hash>
+         <hash>3aa0766f015eb9436b0e251ce70755c60cdaf8fbb03698ca40158f299ea50261</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
@@ -2637,7 +2645,7 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\sercom5.h</file>
-         <hash>90f48fcb8a6b5e81088be7cdfbb5b0c6ad3c154f95f7b559f25353c39aeed630</hash>
+         <hash>edcd89ddf1f95c3d39f2a2fb24dd4347a3006d1756385f7964de0f34f9417e1c</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\app2.h</file>
@@ -2645,15 +2653,15 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\nvmctrl.h</file>
-         <hash>aafbcfa1a8d42b06031f019d1ccaeb086251b69073090924d17b7436f1b521ef</hash>
+         <hash>dca1b4c6bb1ffb35314d0184a73c2d0f5e851ac2c82183644f05400e564ddaf7</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_context.c</file>
-         <hash>b9efca744186189dd16442ec1dcf3ebd5e1007451565a7e921bb9a063013f697</hash>
+         <hash>f02d9865272423ef884534f26868ce2027ff8a478def76a33c965cfe455a62c9</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\idau.h</file>
-         <hash>055a493f4795ab3b24bdee32f44f43e40e25a8fb0fc904040d076ffb216daab7</hash>
+         <hash>504cb94cf9500e2374c4d7140ae0841fd65d0419d0131cba04fd008ee0429174</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\device_vectors.h</file>
@@ -2661,11 +2669,11 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_context.h</file>
-         <hash>ee74160d9994429655d82387944874e2af38feddaa77bced7247b2f3a6ca1d99</hash>
+         <hash>13d3a5a04d29fc0f4063f925f5b87132d228a0fe925c3d2858daa3d344524f3d</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\rtc.h</file>
-         <hash>bf6ffdae06c8d8f10b3c15eeab17bd8b82abdef6d80ac50914635d08696b8ea4</hash>
+         <hash>aeec7c302f78a757d5e725f398aa6c0b53820b2fcb04859c0fc85e792ccea615</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\stdio\xc32_monitor.c</file>
@@ -2673,39 +2681,39 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_heap.h</file>
-         <hash>c2fa0764b71886b99a00df94a4dc55cff867bbc2efc653354d58d49f388a8711</hash>
+         <hash>f231f2ace9f2f0830551970803c0507042a716475dc1e09f5525fa28cb279d0c</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\freqm.h</file>
-         <hash>73e42e7f25e7a18166f7b9792a86396d318fbbc8c48b0ea4efbe30522ac25ccb</hash>
+         <hash>59789d9a64418783d2019b9b27335adfef075327dc602d3942e58384a281f9a4</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>f97f4e54a7511e5aea34f583061c628bf718b1024af6ec4cff55cb50365305da</hash>
+         <hash>14020d617b96dd2814e1211f6e3b645bcf5e2bd3179c23fe7dd16bc666fe9463</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\PIC32CM5164LS00100.ld</file>
-         <hash>297627fdc3ccb4a77f35359d719c49c8267f12d71bff9cf4abdf67a01df485c4</hash>
+         <hash>c3c511fe563ab2557909f2aadaac69c8e30068cd8d7360671cce4a2ea1ecc2ad</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\dsu.h</file>
-         <hash>13b555c5b350715030205846b6cea8486a22aa9f61fa0fa8b8df621bd0b8a364</hash>
+         <hash>c0527e2d8fa586fbcfc31b8576beb2b743b31df6fe856ec83a4ceaf210a5e4dd</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\adc.h</file>
-         <hash>b00c66c54f26b31acc91a41d0c2edb69cbacea5cd2056fa10245fa92119aa223</hash>
+         <hash>2c507bc13e422d647f4ad865d66abece4e6ef0628a0f8c60e134cdd93dc1ac4e</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\supc.h</file>
-         <hash>17955c579a35558b9f6d3104e0348919daf8e63f8384644e82baa88c8195b2f0</hash>
+         <hash>c0a918a5dda90041d7ef8230640954e58967cccbb11e414bbe8a3c59a531c903</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\ac.h</file>
-         <hash>20d033978f1b752dde994c197ce2a41b1c96ab4f911d871d36cae97b70e1619f</hash>
+         <hash>6f24fdc0ee4824c44883231584c7787541352b17f7b752a39f67c1a0c3c97438</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\main.c</file>
@@ -2713,23 +2721,23 @@
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\definitions.h</file>
-         <hash>3ab6bdfc7bbd4197a6aad12d122d4aa6bbd04c0ce556affd1ab68e9d932a29ca</hash>
+         <hash>f077bcdbb661d8dfc4553d98ee2b6aa6c490fe883012e07a36715bc063ce90db</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\port\plib_port.h</file>
-         <hash>09e912860fd08aa9d4778b17fdd9fcd4c6f497c13d8e4716977217334e5744b8</hash>
+         <hash>96f0602666b3f5f6618fb4d7c33297ec8b5387f68bf1a85c4a8e526726e7816a</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\osc32kctrl.h</file>
-         <hash>a080b7c7f08a2ea66e03882e1a7bf1e1fcd174265cae8bdb4c3e6ff309116e0d</hash>
+         <hash>9c07cc47c123518a4d8d0174820411cb2b2ce436e428ceda63e15f08f8dfc21d</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\fuses.h</file>
-         <hash>94a8a21a00aa5d597dc1c190d830b1246eafee27efe2bc0ab1273e114926bef9</hash>
+         <hash>f781feba263dd6f6ee158626953cc98b33b48adb554e82b49619b25cc7c84396</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\i2s.h</file>
-         <hash>f0694674c413cb2cd1e014ffd651211c03086c5cc8dcc9c74579964e45ad6529</hash>
+         <hash>e7e81c83f820306557e91d666d0769d24d0d7448eab421ae0b13bb06f34ecce6</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
@@ -2737,11 +2745,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\instance\rstc.h</file>
-         <hash>239c057ac4f30a3bfb6f3b1409bec2440ee95aa437ba82e74e65f2e8ac4d45c5</hash>
+         <hash>dc9e011aa5b7531ec46818e6a8750e03496355563ced85e0814e6de9265ef45e</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\third_party\rtos\FreeRTOS\Source\portable\GCC\ARM_CM23\secure\secure_heap.c</file>
-         <hash>a832c0af18c76a28be5cc342c76ac9b5b3bc1fb2ba4f2e0ab805054936df73a1</hash>
+         <hash>3bc55eed4a8fb875af67e9eba8f8922ad9a0f1636a5a3e378d77ee65fa1b8cc6</hash>
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\config\pic32cm_ls00_cpro\user.h</file>
@@ -2749,11 +2757,11 @@
       </entry>
       <entry>
          <file>..\..\..\NonSecure\firmware\src\packs\PIC32CM5164LS00100_DFP\component\tram.h</file>
-         <hash>bb4a00109980cb3a0d4f5bee74784fd3b5a733ac132688c5e1f1051c3ad880ec</hash>
+         <hash>844433c7636a04e617ee7281657949e8d376a34e14791636c559e7a4757a97c5</hash>
       </entry>
       <entry>
          <file>..\..\..\Secure\firmware\src\config\pic32cm_ls00_cpro\peripheral\port\plib_port.c</file>
-         <hash>24792f13fe62a4fddca25439bc7e103294b134d23ccb7945484ab46913b5bc59</hash>
+         <hash>fe3e9369d3ce76dbcaae8507e9b8f3209d1b8e982b91742670a57bc4a653ad32</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
