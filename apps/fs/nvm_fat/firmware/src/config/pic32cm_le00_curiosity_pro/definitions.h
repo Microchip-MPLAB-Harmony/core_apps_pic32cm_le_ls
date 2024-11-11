@@ -51,13 +51,13 @@
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "driver/memory/drv_memory_nvmctrl.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "bsp/bsp.h"
 #include "system/fs/sys_fs.h"
 #include "system/fs/sys_fs_media_manager.h"
 #include "system/fs/sys_fs_fat_interface.h"
 #include "system/fs/fat_fs/file_system/ff.h"
 #include "system/fs/fat_fs/file_system/ffconf.h"
 #include "system/fs/fat_fs/hardware_access/diskio.h"
+#include "bsp/bsp.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
@@ -79,13 +79,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "PIC32CM5164LE00100"
-#define DEVICE_ARCH			 "CORTEX-M23"
-#define DEVICE_FAMILY		 "PIC32CM"
-#define DEVICE_SERIES		 "PIC32CMLE00"
+#define DEVICE_NAME          "PIC32CM5164LE00100"
+#define DEVICE_ARCH          "CORTEX-M23"
+#define DEVICE_FAMILY        "PIC32CM"
+#define DEVICE_SERIES        "PIC32CMLE00"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 48000000
+#define CPU_CLOCK_FREQUENCY 48000000U
 
 // *****************************************************************************
 // *****************************************************************************
