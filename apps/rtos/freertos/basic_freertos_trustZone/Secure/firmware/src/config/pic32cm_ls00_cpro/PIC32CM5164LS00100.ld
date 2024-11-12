@@ -145,6 +145,11 @@ ENTRY(__XC32_RESET_HANDLER_NAME)
 #  define SECURE
 #endif
 
+#ifndef BOOTPROT_SIZE
+#  warning "Boot protection size (BOOTPROT_SIZE) not specified (e.g. -Wl,-DBOOTPROT_SIZE=size). Assuming 0 bytes."
+#  define BOOTPROT_SIZE 0x0
+#endif
+
 #if defined(SECURE) || defined(NONSECURE)
 #  ifndef AS_SIZE
 #    warning "Secure app length (AS_SIZE) not specified (e.g. -Wl,-DAS_SIZE=size). Assuming half of ROM (0x40000 bytes)."
@@ -164,11 +169,6 @@ ENTRY(__XC32_RESET_HANDLER_NAME)
 #    warning "Non-secure callable length (ANSC_SIZE) not specified (e.g. -Wl,-DANSC_SIZE=size). Assuming 0 bytes."
 #    define ANSC_SIZE 0x0
 #  endif
-#endif
-
-#ifndef BOOTPROT_SIZE
-#  warning "Boot protection size (BOOTPROT_SIZE) not specified (e.g. -Wl,-DBOOTPROT_SIZE=size). Assuming 0 bytes."
-#  define BOOTPROT_SIZE 0x0
 #endif
 
 #ifndef RS_SIZE

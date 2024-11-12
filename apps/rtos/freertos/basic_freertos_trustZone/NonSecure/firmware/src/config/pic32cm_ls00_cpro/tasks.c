@@ -60,8 +60,11 @@
 // Section: RTOS "Tasks" Routine
 // *****************************************************************************
 // *****************************************************************************
+
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
+
+
 
 static void lAPP_Tasks(  void *pvParameters  )
 {   
@@ -70,8 +73,11 @@ static void lAPP_Tasks(  void *pvParameters  )
         APP_Tasks();
     }
 }
+
 /* Handle for the APP1_Tasks. */
 TaskHandle_t xAPP1_Tasks;
+
+
 
 static void lAPP1_Tasks(  void *pvParameters  )
 {   
@@ -80,8 +86,11 @@ static void lAPP1_Tasks(  void *pvParameters  )
         APP1_Tasks();
     }
 }
+
 /* Handle for the APP2_Tasks. */
 TaskHandle_t xAPP2_Tasks;
+
+
 
 static void lAPP2_Tasks(  void *pvParameters  )
 {   
@@ -119,30 +128,33 @@ void SYS_Tasks ( void )
     
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_Tasks,
-                "APP_Tasks",
-                128,
-                NULL,
-                1,
-                &xAPP_Tasks);
+    
+    /* Create OS Thread for APP_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_Tasks,
+           "APP_Tasks",
+           128,
+           NULL,
+           1U ,
+           &xAPP_Tasks);
 
     /* Create OS Thread for APP1_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP1_Tasks,
-                "APP1_Tasks",
-                128,
-                NULL,
-                2,
-                &xAPP1_Tasks);
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP1_Tasks,
+           "APP1_Tasks",
+           128,
+           NULL,
+           2U ,
+           &xAPP1_Tasks);
 
     /* Create OS Thread for APP2_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP2_Tasks,
-                "APP2_Tasks",
-                128,
-                NULL,
-                2,
-                &xAPP2_Tasks);
-
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP2_Tasks,
+           "APP2_Tasks",
+           128,
+           NULL,
+           2U ,
+           &xAPP2_Tasks);
 
 
 
