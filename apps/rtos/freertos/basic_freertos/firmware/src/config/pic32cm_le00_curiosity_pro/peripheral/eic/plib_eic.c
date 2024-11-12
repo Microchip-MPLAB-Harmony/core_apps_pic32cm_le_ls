@@ -81,6 +81,7 @@ void EIC_Initialize (void)
 
     /* NMI Control register */
 
+
     /* Interrupt sense type and filter control for EXTINT channels 0 to (16-1) */
     EIC_REGS->EIC_CONFIG0 =  EIC_CONFIG0_SENSE0_NONE 
         | EIC_CONFIG0_SENSE1_NONE 
@@ -99,6 +100,7 @@ void EIC_Initialize (void)
         | EIC_CONFIG1_SENSE13_NONE 
         | EIC_CONFIG1_SENSE14_NONE 
         | EIC_CONFIG1_SENSE15_NONE ;
+
 
     /* External Interrupt Asynchronous Mode enable */
     EIC_REGS->EIC_ASYNCH = 0x1000;
