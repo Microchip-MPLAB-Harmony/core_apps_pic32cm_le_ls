@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<Package name="core_apps_pic32cm_le_ls">
-    <Dependencies>
-        <Dependency name="core" version="v3.13.0"/></Dependencies>
-</Package>
