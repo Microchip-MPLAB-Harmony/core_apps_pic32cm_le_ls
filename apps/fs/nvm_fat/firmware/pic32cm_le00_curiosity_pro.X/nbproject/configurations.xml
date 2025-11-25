@@ -17,6 +17,7 @@
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/memory/drv_memory_definitions.h</itemPath>
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/memory/drv_memory_nvmctrl.h</itemPath>
               <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/memory/src/drv_memory_local.h</itemPath>
+              <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/memory/src/drv_memory_file_system.h</itemPath>
             </logicalFolder>
             <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32cm_le00_curiosity_pro/driver/driver_common.h</itemPath>
@@ -216,7 +217,6 @@
         <itemPath>nvm_fat_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -320,7 +320,7 @@
       </toolsSet>
       <packs>
         <pack name="PIC32CM-LE_DFP" vendor="Microchip" version="1.3.280"/>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

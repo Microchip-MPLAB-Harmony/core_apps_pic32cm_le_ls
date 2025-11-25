@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_le00_curiosity_pro\configuration.h
   hash: bd7aa46d760c3a21b9e1312311ca652c60c70f2df32cbb3ad1f15c910de1ccba
 - file: ..\src\config\pic32cm_le00_curiosity_pro\definitions.h
-  hash: c090c40da20d795a38f787eb4f8b04aa63f8080263f89173d1dd803896c0e12a
+  hash: e73a72999d034333a14f908613309d40bcd1b3931534e4c65d260d188f13a114
 - file: ..\src\config\pic32cm_le00_curiosity_pro\device.h
   hash: e4c23e70411565e5ac34af18495dfac885c146e648cd4b32063d5414f86e0426
 - file: ..\src\config\pic32cm_le00_curiosity_pro\device_cache.h

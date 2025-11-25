@@ -2,8 +2,8 @@
 
 manifest_file_version: 1.0.0
 project: sys_console_debug_uart_read_write_pic32cm_le00_curiosity_pro
-creation_date: 2025-09-23T10:29:20.513+00:00[UTC]
-operating_system: Windows 10
+creation_date: 2025-11-25T10:58:45.028+00:00[UTC]
+operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32CM5164LE00100

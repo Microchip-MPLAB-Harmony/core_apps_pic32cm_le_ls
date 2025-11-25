@@ -33,7 +33,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_le00_curiosity_pro_freertos\configuration.h
   hash: a32642d69ae02dc9bf66699861150ac7785c6167c7917475c50b41198c25f1e5
 - file: ..\src\config\pic32cm_le00_curiosity_pro_freertos\definitions.h
-  hash: c4936fc4180c61af311a3470907410cde51104c6eee75384f10f4bee385cf859
+  hash: 2b1b12d4a6c0085fa7eba55e224d9f2a0ddec7137a13a3b18e8d07bcc72edc98
 - file: ..\src\config\pic32cm_le00_curiosity_pro_freertos\device.h
   hash: e4c23e70411565e5ac34af18495dfac885c146e648cd4b32063d5414f86e0426
 - file: ..\src\config\pic32cm_le00_curiosity_pro_freertos\device_cache.h

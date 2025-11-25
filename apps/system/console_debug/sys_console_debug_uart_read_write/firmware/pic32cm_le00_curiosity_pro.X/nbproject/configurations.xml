@@ -202,7 +202,6 @@
         <itemPath>sys_console_debug_uart_read_write_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -300,7 +299,7 @@
       </toolsSet>
       <packs>
         <pack name="PIC32CM-LE_DFP" vendor="Microchip" version="1.3.280"/>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
